@@ -55,11 +55,10 @@ test('workspace to precise edit and export flow', async ({ page }) => {
     await page.getByRole('button', { name: '撤销' }).click();
     await expect(bpmInput).toHaveValue(String(originalBpm));
 
-    await page.locator('.export-menu summary').click();
     const downloadPromise = page.waitForEvent('download');
-    await page.getByRole('link', { name: '导出 JSON' }).click();
+    await page.getByRole('link', { name: '导出制谱包' }).click();
     const download = await downloadPromise;
-    expect(download.suggestedFilename()).toMatch(/\.json$/);
+    expect(download.suggestedFilename()).toMatch(/\.beatforge\.zip$/);
   } finally {
     // A real reanalysis leaves the seeded demo pristine even when this test fails or retries.
     const restore = await page.request.post(`/api/tracks/${project.track.id}/analyze`, { data: { mode: 'balanced', sensitivity: 0.5 } });

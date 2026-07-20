@@ -125,41 +125,13 @@ export function EditorToolbar({ project, track, mode, sensitivity, onModeChange,
             {saveStatus === 'saving' ? '正在保存' : saveStatus === 'error' ? '保存失败' : revision === savedRevision ? '已保存' : '等待保存'}
             {saveStatus === 'error' ? <button onClick={retrySave}>重试</button> : null}
           </div>
-          <details className="export-menu">
-            <summary className="primary-button">导出</summary>
-            <div className="export-menu-panel">
-              <span className="export-menu-heading">BeatForge 制谱包</span>
-              <a
-                className="export-option recommended"
-                href={api.exportUrl(track.id, 'package', 'reference')}
-                download
-              >
-                <strong>数据 + 参考音频</strong>
-                <small>推荐 · 五轨标记与采样对齐 FLAC</small>
-              </a>
-              <a
-                className="export-option"
-                href={api.exportUrl(track.id, 'package', 'none')}
-                download
-              >
-                <strong>仅数据包</strong>
-                <small>五轨标记、双时间与分析信息</small>
-              </a>
-              <a
-                className="export-option"
-                href={api.exportUrl(track.id, 'package', 'full')}
-                download
-              >
-                <strong>完整分轨包</strong>
-                <small>参考音频 + Vocals / Drums / Bass / Other</small>
-              </a>
-              <span className="export-menu-heading legacy-heading">兼容格式</span>
-              <div className="export-menu-legacy">
-                <a href={api.exportUrl(track.id, 'json')} download>导出 JSON</a>
-                <a href={api.exportUrl(track.id, 'csv')} download>导出 CSV</a>
-              </div>
-            </div>
-          </details>
+          <a
+            className="primary-button export-button"
+            href={api.exportUrl(track.id, 'package', 'reference')}
+            download
+            aria-label="导出制谱包"
+            title="导出五轨标记、双时间与参考音频"
+          >导出</a>
           <details className="toolbar-popover analysis-settings-menu">
             <summary className="toolbar-button">设置</summary>
             <div>

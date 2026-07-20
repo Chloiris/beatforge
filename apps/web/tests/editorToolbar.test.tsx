@@ -154,22 +154,14 @@ describe('EditorToolbar', () => {
 
     const actions = within(header).getByRole('group', { name: '项目操作' });
     expect(within(actions).getByRole('status', { name: '保存状态' })).toHaveTextContent('已保存');
-    expect(within(actions).getByRole('link', { name: /数据 \+ 参考音频/ })).toHaveAttribute(
+    expect(within(actions).getByRole('link', { name: '导出制谱包' })).toHaveAttribute(
       'href',
       `/api/tracks/${inputTrack.id}/export?format=package&audio=reference`,
     );
-    expect(within(actions).getByRole('link', { name: /仅数据包/ })).toHaveAttribute(
-      'href',
-      `/api/tracks/${inputTrack.id}/export?format=package&audio=none`,
-    );
-    expect(within(actions).getByRole('link', { name: /完整分轨包/ })).toHaveAttribute(
-      'href',
-      `/api/tracks/${inputTrack.id}/export?format=package&audio=full`,
-    );
-    expect(within(actions).getByRole('link', { name: '导出 JSON' })).toHaveAttribute(
-      'href',
-      `/api/tracks/${inputTrack.id}/export?format=json`,
-    );
+    expect(within(actions).getAllByRole('link')).toHaveLength(1);
+    expect(within(actions).queryByText('仅数据包')).not.toBeInTheDocument();
+    expect(within(actions).queryByText('完整分轨包')).not.toBeInTheDocument();
+    expect(within(actions).queryByText('导出 JSON')).not.toBeInTheDocument();
     expect(within(actions).getByText('设置')).toBeInTheDocument();
 
     const vocalAlignment = within(actions).getByRole('button', { name: 'Vocal Alignment' });

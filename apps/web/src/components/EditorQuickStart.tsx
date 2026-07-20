@@ -65,7 +65,7 @@ export function EditorQuickStart({
           <li><b>1</b><span><strong>导入歌曲</strong>添加本地音频并创建项目。</span></li>
           <li><b>2</b><span><strong>AI 分析人声</strong>使用 Japanese HuBERT CTC 生成发音事件。</span></li>
           <li><b>3</b><span><strong>查看 Mora 时间轴</strong>检查每个发音单位的采样位置与置信度。</span></li>
-          <li><b>4</b><span><strong>导出制谱数据</strong>确认候选点后导出 JSON 或 CSV。</span></li>
+          <li><b>4</b><span><strong>导出制谱包</strong>确认候选点后一键交给后续制谱工具。</span></li>
         </ol>
 
         <footer>

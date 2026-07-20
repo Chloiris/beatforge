@@ -25,7 +25,7 @@ describe('EditorQuickStart', () => {
       '导入歌曲',
       'AI 分析人声',
       '查看 Mora 时间轴',
-      '导出制谱数据',
+      '导出制谱包',
     ]);
     await user.click(screen.getByRole('button', { name: '开始人声歌词卡点' }));
     expect(startLyrics).toHaveBeenCalledOnce();
