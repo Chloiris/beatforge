@@ -1,0 +1,1417 @@
+{
+  "schemaVersion": "1.0",
+  "slug": "neon-pulse",
+  "title": "霓虹脉冲",
+  "englishTitle": "Neon Pulse",
+  "artist": "BeatForge Lab",
+  "genre": "Electronic",
+  "sampleRate": 44100,
+  "channels": 2,
+  "sampleCount": 1323000,
+  "durationSec": 30.0,
+  "bpm": 128.0,
+  "beatOffsetSample": 0,
+  "timeSignatureNumerator": 4,
+  "timeSignatureDenominator": 4,
+  "seed": 20260719,
+  "audioFile": "storage/demo/neon-pulse.wav",
+  "coverFile": "storage/covers/neon-pulse.svg",
+  "onsets": [
+    {
+      "sample": 0,
+      "timeSec": 0.0,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 10336,
+      "timeSec": 0.2343764172335601,
+      "band": "high_hit",
+      "strength": 0.38,
+      "layers": [
+        "hat"
+      ]
+    },
+    {
+      "sample": 20672,
+      "timeSec": 0.4687528344671202,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "hat",
+        "kick",
+        "snare"
+      ]
+    },
+    {
+      "sample": 31008,
+      "timeSec": 0.7031292517006803,
+      "band": "high_hit",
+      "strength": 0.38,
+      "layers": [
+        "hat"
+      ]
+    },
+    {
+      "sample": 41344,
+      "timeSec": 0.9375056689342404,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 51680,
+      "timeSec": 1.1718820861678005,
+      "band": "high_hit",
+      "strength": 0.38,
+      "layers": [
+        "hat"
+      ]
+    },
+    {
+      "sample": 62016,
+      "timeSec": 1.4062585034013606,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "hat",
+        "kick",
+        "snare"
+      ]
+    },
+    {
+      "sample": 72352,
+      "timeSec": 1.6406349206349207,
+      "band": "high_hit",
+      "strength": 0.38,
+      "layers": [
+        "hat"
+      ]
+    },
+    {
+      "sample": 82688,
+      "timeSec": 1.8750113378684807,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 93023,
+      "timeSec": 2.1093650793650793,
+      "band": "high_hit",
+      "strength": 0.38,
+      "layers": [
+        "hat"
+      ]
+    },
+    {
+      "sample": 103359,
+      "timeSec": 2.3437414965986396,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "hat",
+        "kick",
+        "snare"
+      ]
+    },
+    {
+      "sample": 113695,
+      "timeSec": 2.5781179138321995,
+      "band": "high_hit",
+      "strength": 0.38,
+      "layers": [
+        "hat"
+      ]
+    },
+    {
+      "sample": 124031,
+      "timeSec": 2.8124943310657597,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 134367,
+      "timeSec": 3.0468707482993196,
+      "band": "high_hit",
+      "strength": 0.38,
+      "layers": [
+        "hat"
+      ]
+    },
+    {
+      "sample": 144703,
+      "timeSec": 3.28124716553288,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "hat",
+        "kick",
+        "snare"
+      ]
+    },
+    {
+      "sample": 155039,
+      "timeSec": 3.5156235827664397,
+      "band": "high_hit",
+      "strength": 0.38,
+      "layers": [
+        "hat"
+      ]
+    },
+    {
+      "sample": 165375,
+      "timeSec": 3.75,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 175711,
+      "timeSec": 3.9843764172335603,
+      "band": "high_hit",
+      "strength": 0.38,
+      "layers": [
+        "hat"
+      ]
+    },
+    {
+      "sample": 186047,
+      "timeSec": 4.218752834467121,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "hat",
+        "kick",
+        "snare"
+      ]
+    },
+    {
+      "sample": 196383,
+      "timeSec": 4.45312925170068,
+      "band": "high_hit",
+      "strength": 0.38,
+      "layers": [
+        "hat"
+      ]
+    },
+    {
+      "sample": 206719,
+      "timeSec": 4.68750566893424,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 217055,
+      "timeSec": 4.9218820861678,
+      "band": "high_hit",
+      "strength": 0.38,
+      "layers": [
+        "hat"
+      ]
+    },
+    {
+      "sample": 227391,
+      "timeSec": 5.156258503401361,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "hat",
+        "kick",
+        "snare"
+      ]
+    },
+    {
+      "sample": 237727,
+      "timeSec": 5.390634920634921,
+      "band": "high_hit",
+      "strength": 0.38,
+      "layers": [
+        "hat"
+      ]
+    },
+    {
+      "sample": 248062,
+      "timeSec": 5.6249886621315195,
+      "band": "full_band_accent",
+      "strength": 1.0,
+      "layers": [
+        "accent",
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 258398,
+      "timeSec": 5.859365079365079,
+      "band": "high_hit",
+      "strength": 0.38,
+      "layers": [
+        "hat"
+      ]
+    },
+    {
+      "sample": 268734,
+      "timeSec": 6.093741496598639,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "hat",
+        "kick",
+        "snare"
+      ]
+    },
+    {
+      "sample": 279070,
+      "timeSec": 6.3281179138322,
+      "band": "high_hit",
+      "strength": 0.38,
+      "layers": [
+        "hat"
+      ]
+    },
+    {
+      "sample": 289406,
+      "timeSec": 6.56249433106576,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 299742,
+      "timeSec": 6.79687074829932,
+      "band": "high_hit",
+      "strength": 0.38,
+      "layers": [
+        "hat"
+      ]
+    },
+    {
+      "sample": 310078,
+      "timeSec": 7.031247165532879,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "hat",
+        "kick",
+        "snare"
+      ]
+    },
+    {
+      "sample": 320414,
+      "timeSec": 7.26562358276644,
+      "band": "high_hit",
+      "strength": 0.38,
+      "layers": [
+        "hat"
+      ]
+    },
+    {
+      "sample": 330750,
+      "timeSec": 7.5,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 341086,
+      "timeSec": 7.73437641723356,
+      "band": "high_hit",
+      "strength": 0.38,
+      "layers": [
+        "hat"
+      ]
+    },
+    {
+      "sample": 351422,
+      "timeSec": 7.968752834467121,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "hat",
+        "kick",
+        "snare"
+      ]
+    },
+    {
+      "sample": 361758,
+      "timeSec": 8.20312925170068,
+      "band": "high_hit",
+      "strength": 0.38,
+      "layers": [
+        "hat"
+      ]
+    },
+    {
+      "sample": 372094,
+      "timeSec": 8.437505668934241,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 382430,
+      "timeSec": 8.6718820861678,
+      "band": "high_hit",
+      "strength": 0.38,
+      "layers": [
+        "hat"
+      ]
+    },
+    {
+      "sample": 392766,
+      "timeSec": 8.90625850340136,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "hat",
+        "kick",
+        "snare"
+      ]
+    },
+    {
+      "sample": 403102,
+      "timeSec": 9.14063492063492,
+      "band": "high_hit",
+      "strength": 0.38,
+      "layers": [
+        "hat"
+      ]
+    },
+    {
+      "sample": 413438,
+      "timeSec": 9.37501133786848,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 423773,
+      "timeSec": 9.60936507936508,
+      "band": "high_hit",
+      "strength": 0.38,
+      "layers": [
+        "hat"
+      ]
+    },
+    {
+      "sample": 434109,
+      "timeSec": 9.84374149659864,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "hat",
+        "kick",
+        "snare"
+      ]
+    },
+    {
+      "sample": 444445,
+      "timeSec": 10.0781179138322,
+      "band": "high_hit",
+      "strength": 0.38,
+      "layers": [
+        "hat"
+      ]
+    },
+    {
+      "sample": 454781,
+      "timeSec": 10.312494331065759,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 465117,
+      "timeSec": 10.54687074829932,
+      "band": "high_hit",
+      "strength": 0.38,
+      "layers": [
+        "hat"
+      ]
+    },
+    {
+      "sample": 475453,
+      "timeSec": 10.78124716553288,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "hat",
+        "kick",
+        "snare"
+      ]
+    },
+    {
+      "sample": 485789,
+      "timeSec": 11.01562358276644,
+      "band": "high_hit",
+      "strength": 0.38,
+      "layers": [
+        "hat"
+      ]
+    },
+    {
+      "sample": 496125,
+      "timeSec": 11.25,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 506461,
+      "timeSec": 11.48437641723356,
+      "band": "high_hit",
+      "strength": 0.38,
+      "layers": [
+        "hat"
+      ]
+    },
+    {
+      "sample": 516797,
+      "timeSec": 11.71875283446712,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "hat",
+        "kick",
+        "snare"
+      ]
+    },
+    {
+      "sample": 527133,
+      "timeSec": 11.95312925170068,
+      "band": "high_hit",
+      "strength": 0.38,
+      "layers": [
+        "hat"
+      ]
+    },
+    {
+      "sample": 537469,
+      "timeSec": 12.187505668934241,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 547805,
+      "timeSec": 12.4218820861678,
+      "band": "high_hit",
+      "strength": 0.38,
+      "layers": [
+        "hat"
+      ]
+    },
+    {
+      "sample": 558141,
+      "timeSec": 12.65625850340136,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "hat",
+        "kick",
+        "snare"
+      ]
+    },
+    {
+      "sample": 568477,
+      "timeSec": 12.89063492063492,
+      "band": "high_hit",
+      "strength": 0.38,
+      "layers": [
+        "hat"
+      ]
+    },
+    {
+      "sample": 578812,
+      "timeSec": 13.12498866213152,
+      "band": "full_band_accent",
+      "strength": 1.0,
+      "layers": [
+        "accent",
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 589148,
+      "timeSec": 13.35936507936508,
+      "band": "high_hit",
+      "strength": 0.38,
+      "layers": [
+        "hat"
+      ]
+    },
+    {
+      "sample": 599484,
+      "timeSec": 13.59374149659864,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "hat",
+        "kick",
+        "snare"
+      ]
+    },
+    {
+      "sample": 609820,
+      "timeSec": 13.8281179138322,
+      "band": "high_hit",
+      "strength": 0.38,
+      "layers": [
+        "hat"
+      ]
+    },
+    {
+      "sample": 620156,
+      "timeSec": 14.062494331065759,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 630492,
+      "timeSec": 14.29687074829932,
+      "band": "high_hit",
+      "strength": 0.38,
+      "layers": [
+        "hat"
+      ]
+    },
+    {
+      "sample": 640828,
+      "timeSec": 14.53124716553288,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "hat",
+        "kick",
+        "snare"
+      ]
+    },
+    {
+      "sample": 651164,
+      "timeSec": 14.76562358276644,
+      "band": "high_hit",
+      "strength": 0.38,
+      "layers": [
+        "hat"
+      ]
+    },
+    {
+      "sample": 661500,
+      "timeSec": 15.0,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 671836,
+      "timeSec": 15.23437641723356,
+      "band": "high_hit",
+      "strength": 0.38,
+      "layers": [
+        "hat"
+      ]
+    },
+    {
+      "sample": 682172,
+      "timeSec": 15.46875283446712,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "hat",
+        "kick",
+        "snare"
+      ]
+    },
+    {
+      "sample": 692508,
+      "timeSec": 15.70312925170068,
+      "band": "high_hit",
+      "strength": 0.38,
+      "layers": [
+        "hat"
+      ]
+    },
+    {
+      "sample": 702844,
+      "timeSec": 15.937505668934241,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 713180,
+      "timeSec": 16.171882086167802,
+      "band": "high_hit",
+      "strength": 0.38,
+      "layers": [
+        "hat"
+      ]
+    },
+    {
+      "sample": 723516,
+      "timeSec": 16.40625850340136,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "hat",
+        "kick",
+        "snare"
+      ]
+    },
+    {
+      "sample": 733852,
+      "timeSec": 16.64063492063492,
+      "band": "high_hit",
+      "strength": 0.38,
+      "layers": [
+        "hat"
+      ]
+    },
+    {
+      "sample": 744188,
+      "timeSec": 16.875011337868482,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 754523,
+      "timeSec": 17.10936507936508,
+      "band": "high_hit",
+      "strength": 0.38,
+      "layers": [
+        "hat"
+      ]
+    },
+    {
+      "sample": 764859,
+      "timeSec": 17.34374149659864,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "hat",
+        "kick",
+        "snare"
+      ]
+    },
+    {
+      "sample": 775195,
+      "timeSec": 17.578117913832198,
+      "band": "high_hit",
+      "strength": 0.38,
+      "layers": [
+        "hat"
+      ]
+    },
+    {
+      "sample": 785531,
+      "timeSec": 17.81249433106576,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 795867,
+      "timeSec": 18.04687074829932,
+      "band": "high_hit",
+      "strength": 0.38,
+      "layers": [
+        "hat"
+      ]
+    },
+    {
+      "sample": 806203,
+      "timeSec": 18.28124716553288,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "hat",
+        "kick",
+        "snare"
+      ]
+    },
+    {
+      "sample": 816539,
+      "timeSec": 18.51562358276644,
+      "band": "high_hit",
+      "strength": 0.38,
+      "layers": [
+        "hat"
+      ]
+    },
+    {
+      "sample": 826875,
+      "timeSec": 18.75,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 837211,
+      "timeSec": 18.98437641723356,
+      "band": "high_hit",
+      "strength": 0.38,
+      "layers": [
+        "hat"
+      ]
+    },
+    {
+      "sample": 847547,
+      "timeSec": 19.21875283446712,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "hat",
+        "kick",
+        "snare"
+      ]
+    },
+    {
+      "sample": 857883,
+      "timeSec": 19.45312925170068,
+      "band": "high_hit",
+      "strength": 0.38,
+      "layers": [
+        "hat"
+      ]
+    },
+    {
+      "sample": 868219,
+      "timeSec": 19.68750566893424,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 878555,
+      "timeSec": 19.921882086167802,
+      "band": "high_hit",
+      "strength": 0.38,
+      "layers": [
+        "hat"
+      ]
+    },
+    {
+      "sample": 888891,
+      "timeSec": 20.15625850340136,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "hat",
+        "kick",
+        "snare"
+      ]
+    },
+    {
+      "sample": 899227,
+      "timeSec": 20.39063492063492,
+      "band": "high_hit",
+      "strength": 0.38,
+      "layers": [
+        "hat"
+      ]
+    },
+    {
+      "sample": 909562,
+      "timeSec": 20.624988662131518,
+      "band": "full_band_accent",
+      "strength": 1.0,
+      "layers": [
+        "accent",
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 919898,
+      "timeSec": 20.85936507936508,
+      "band": "high_hit",
+      "strength": 0.38,
+      "layers": [
+        "hat"
+      ]
+    },
+    {
+      "sample": 930234,
+      "timeSec": 21.09374149659864,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "hat",
+        "kick",
+        "snare"
+      ]
+    },
+    {
+      "sample": 940570,
+      "timeSec": 21.328117913832198,
+      "band": "high_hit",
+      "strength": 0.38,
+      "layers": [
+        "hat"
+      ]
+    },
+    {
+      "sample": 950906,
+      "timeSec": 21.56249433106576,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 961242,
+      "timeSec": 21.79687074829932,
+      "band": "high_hit",
+      "strength": 0.38,
+      "layers": [
+        "hat"
+      ]
+    },
+    {
+      "sample": 971578,
+      "timeSec": 22.03124716553288,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "hat",
+        "kick",
+        "snare"
+      ]
+    },
+    {
+      "sample": 981914,
+      "timeSec": 22.26562358276644,
+      "band": "high_hit",
+      "strength": 0.38,
+      "layers": [
+        "hat"
+      ]
+    },
+    {
+      "sample": 992250,
+      "timeSec": 22.5,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 1002586,
+      "timeSec": 22.73437641723356,
+      "band": "high_hit",
+      "strength": 0.38,
+      "layers": [
+        "hat"
+      ]
+    },
+    {
+      "sample": 1012922,
+      "timeSec": 22.96875283446712,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "hat",
+        "kick",
+        "snare"
+      ]
+    },
+    {
+      "sample": 1023258,
+      "timeSec": 23.20312925170068,
+      "band": "high_hit",
+      "strength": 0.38,
+      "layers": [
+        "hat"
+      ]
+    },
+    {
+      "sample": 1033594,
+      "timeSec": 23.43750566893424,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 1043930,
+      "timeSec": 23.671882086167802,
+      "band": "high_hit",
+      "strength": 0.38,
+      "layers": [
+        "hat"
+      ]
+    },
+    {
+      "sample": 1054266,
+      "timeSec": 23.90625850340136,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "hat",
+        "kick",
+        "snare"
+      ]
+    },
+    {
+      "sample": 1064602,
+      "timeSec": 24.14063492063492,
+      "band": "high_hit",
+      "strength": 0.38,
+      "layers": [
+        "hat"
+      ]
+    },
+    {
+      "sample": 1074938,
+      "timeSec": 24.375011337868482,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 1085273,
+      "timeSec": 24.60936507936508,
+      "band": "high_hit",
+      "strength": 0.38,
+      "layers": [
+        "hat"
+      ]
+    },
+    {
+      "sample": 1095609,
+      "timeSec": 24.84374149659864,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "hat",
+        "kick",
+        "snare"
+      ]
+    },
+    {
+      "sample": 1105945,
+      "timeSec": 25.078117913832198,
+      "band": "high_hit",
+      "strength": 0.38,
+      "layers": [
+        "hat"
+      ]
+    },
+    {
+      "sample": 1116281,
+      "timeSec": 25.31249433106576,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 1126617,
+      "timeSec": 25.54687074829932,
+      "band": "high_hit",
+      "strength": 0.38,
+      "layers": [
+        "hat"
+      ]
+    },
+    {
+      "sample": 1136953,
+      "timeSec": 25.78124716553288,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "hat",
+        "kick",
+        "snare"
+      ]
+    },
+    {
+      "sample": 1147289,
+      "timeSec": 26.01562358276644,
+      "band": "high_hit",
+      "strength": 0.38,
+      "layers": [
+        "hat"
+      ]
+    },
+    {
+      "sample": 1157625,
+      "timeSec": 26.25,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 1162793,
+      "timeSec": 26.36718820861678,
+      "band": "mid_hit",
+      "strength": 0.75,
+      "layers": [
+        "fill"
+      ]
+    },
+    {
+      "sample": 1167961,
+      "timeSec": 26.48437641723356,
+      "band": "high_hit",
+      "strength": 0.38,
+      "layers": [
+        "hat"
+      ]
+    },
+    {
+      "sample": 1173129,
+      "timeSec": 26.60156462585034,
+      "band": "mid_hit",
+      "strength": 0.75,
+      "layers": [
+        "fill"
+      ]
+    },
+    {
+      "sample": 1178297,
+      "timeSec": 26.71875283446712,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "hat",
+        "kick",
+        "snare"
+      ]
+    },
+    {
+      "sample": 1183465,
+      "timeSec": 26.8359410430839,
+      "band": "mid_hit",
+      "strength": 0.75,
+      "layers": [
+        "fill"
+      ]
+    },
+    {
+      "sample": 1188633,
+      "timeSec": 26.95312925170068,
+      "band": "high_hit",
+      "strength": 0.38,
+      "layers": [
+        "hat"
+      ]
+    },
+    {
+      "sample": 1193801,
+      "timeSec": 27.07031746031746,
+      "band": "mid_hit",
+      "strength": 0.75,
+      "layers": [
+        "fill"
+      ]
+    },
+    {
+      "sample": 1198969,
+      "timeSec": 27.18750566893424,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 1204137,
+      "timeSec": 27.30469387755102,
+      "band": "mid_hit",
+      "strength": 0.75,
+      "layers": [
+        "fill"
+      ]
+    },
+    {
+      "sample": 1209305,
+      "timeSec": 27.421882086167802,
+      "band": "high_hit",
+      "strength": 0.38,
+      "layers": [
+        "hat"
+      ]
+    },
+    {
+      "sample": 1214473,
+      "timeSec": 27.53907029478458,
+      "band": "mid_hit",
+      "strength": 0.75,
+      "layers": [
+        "fill"
+      ]
+    },
+    {
+      "sample": 1219641,
+      "timeSec": 27.65625850340136,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "hat",
+        "kick",
+        "snare"
+      ]
+    },
+    {
+      "sample": 1224809,
+      "timeSec": 27.773446712018142,
+      "band": "mid_hit",
+      "strength": 0.75,
+      "layers": [
+        "fill"
+      ]
+    },
+    {
+      "sample": 1229977,
+      "timeSec": 27.89063492063492,
+      "band": "high_hit",
+      "strength": 0.38,
+      "layers": [
+        "hat"
+      ]
+    },
+    {
+      "sample": 1235145,
+      "timeSec": 28.0078231292517,
+      "band": "mid_hit",
+      "strength": 0.75,
+      "layers": [
+        "fill"
+      ]
+    },
+    {
+      "sample": 1240312,
+      "timeSec": 28.124988662131518,
+      "band": "full_band_accent",
+      "strength": 1.0,
+      "layers": [
+        "accent",
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 1245480,
+      "timeSec": 28.2421768707483,
+      "band": "mid_hit",
+      "strength": 0.75,
+      "layers": [
+        "fill"
+      ]
+    },
+    {
+      "sample": 1250648,
+      "timeSec": 28.35936507936508,
+      "band": "high_hit",
+      "strength": 0.38,
+      "layers": [
+        "hat"
+      ]
+    },
+    {
+      "sample": 1255816,
+      "timeSec": 28.476553287981858,
+      "band": "mid_hit",
+      "strength": 0.75,
+      "layers": [
+        "fill"
+      ]
+    },
+    {
+      "sample": 1260984,
+      "timeSec": 28.59374149659864,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "hat",
+        "kick",
+        "snare"
+      ]
+    },
+    {
+      "sample": 1266152,
+      "timeSec": 28.71092970521542,
+      "band": "mid_hit",
+      "strength": 0.75,
+      "layers": [
+        "fill"
+      ]
+    },
+    {
+      "sample": 1271320,
+      "timeSec": 28.828117913832198,
+      "band": "high_hit",
+      "strength": 0.38,
+      "layers": [
+        "hat"
+      ]
+    },
+    {
+      "sample": 1276488,
+      "timeSec": 28.94530612244898,
+      "band": "mid_hit",
+      "strength": 0.75,
+      "layers": [
+        "fill"
+      ]
+    },
+    {
+      "sample": 1281656,
+      "timeSec": 29.06249433106576,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 1286824,
+      "timeSec": 29.17968253968254,
+      "band": "mid_hit",
+      "strength": 0.75,
+      "layers": [
+        "fill"
+      ]
+    },
+    {
+      "sample": 1291992,
+      "timeSec": 29.29687074829932,
+      "band": "high_hit",
+      "strength": 0.38,
+      "layers": [
+        "hat"
+      ]
+    },
+    {
+      "sample": 1297160,
+      "timeSec": 29.4140589569161,
+      "band": "mid_hit",
+      "strength": 0.75,
+      "layers": [
+        "fill"
+      ]
+    },
+    {
+      "sample": 1302328,
+      "timeSec": 29.53124716553288,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "hat",
+        "kick",
+        "snare"
+      ]
+    },
+    {
+      "sample": 1307496,
+      "timeSec": 29.64843537414966,
+      "band": "mid_hit",
+      "strength": 0.75,
+      "layers": [
+        "fill"
+      ]
+    },
+    {
+      "sample": 1312664,
+      "timeSec": 29.76562358276644,
+      "band": "high_hit",
+      "strength": 0.38,
+      "layers": [
+        "hat"
+      ]
+    },
+    {
+      "sample": 1317832,
+      "timeSec": 29.88281179138322,
+      "band": "mid_hit",
+      "strength": 0.75,
+      "layers": [
+        "fill"
+      ]
+    }
+  ]
+}

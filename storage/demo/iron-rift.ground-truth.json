@@ -1,0 +1,2348 @@
+{
+  "schemaVersion": "1.0",
+  "slug": "iron-rift",
+  "title": "钢铁断层",
+  "englishTitle": "Iron Rift",
+  "artist": "Synthetic Foundry",
+  "genre": "Metal / Industrial",
+  "sampleRate": 44100,
+  "channels": 2,
+  "sampleCount": 1459862,
+  "durationSec": 33.10344671201814,
+  "bpm": 174.0,
+  "beatOffsetSample": 0,
+  "timeSignatureNumerator": 4,
+  "timeSignatureDenominator": 4,
+  "seed": 20260720,
+  "audioFile": "storage/demo/iron-rift.wav",
+  "coverFile": "storage/covers/iron-rift.svg",
+  "onsets": [
+    {
+      "sample": 0,
+      "timeSec": 0.0,
+      "band": "full_band_accent",
+      "strength": 1.0,
+      "layers": [
+        "accent",
+        "chug",
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 7603,
+      "timeSec": 0.17240362811791382,
+      "band": "full_band_accent",
+      "strength": 0.78,
+      "layers": [
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 15207,
+      "timeSec": 0.3448299319727891,
+      "band": "full_band_accent",
+      "strength": 0.9,
+      "layers": [
+        "chug",
+        "hat",
+        "kick",
+        "snare"
+      ]
+    },
+    {
+      "sample": 22810,
+      "timeSec": 0.517233560090703,
+      "band": "full_band_accent",
+      "strength": 0.78,
+      "layers": [
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 30414,
+      "timeSec": 0.6896598639455782,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "chug",
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 38017,
+      "timeSec": 0.8620634920634921,
+      "band": "full_band_accent",
+      "strength": 0.78,
+      "layers": [
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 45621,
+      "timeSec": 1.0344897959183674,
+      "band": "full_band_accent",
+      "strength": 0.9,
+      "layers": [
+        "chug",
+        "hat",
+        "kick",
+        "snare"
+      ]
+    },
+    {
+      "sample": 53224,
+      "timeSec": 1.2068934240362812,
+      "band": "full_band_accent",
+      "strength": 0.78,
+      "layers": [
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 60828,
+      "timeSec": 1.3793197278911564,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "chug",
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 68431,
+      "timeSec": 1.5517233560090702,
+      "band": "full_band_accent",
+      "strength": 0.78,
+      "layers": [
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 76034,
+      "timeSec": 1.7241269841269842,
+      "band": "full_band_accent",
+      "strength": 0.9,
+      "layers": [
+        "chug",
+        "hat",
+        "kick",
+        "snare"
+      ]
+    },
+    {
+      "sample": 83638,
+      "timeSec": 1.8965532879818594,
+      "band": "full_band_accent",
+      "strength": 0.78,
+      "layers": [
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 91241,
+      "timeSec": 2.0689569160997734,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "chug",
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 98845,
+      "timeSec": 2.2413832199546486,
+      "band": "full_band_accent",
+      "strength": 0.78,
+      "layers": [
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 106448,
+      "timeSec": 2.4137868480725624,
+      "band": "full_band_accent",
+      "strength": 0.9,
+      "layers": [
+        "chug",
+        "hat",
+        "kick",
+        "snare"
+      ]
+    },
+    {
+      "sample": 114052,
+      "timeSec": 2.5862131519274376,
+      "band": "full_band_accent",
+      "strength": 0.78,
+      "layers": [
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 121655,
+      "timeSec": 2.7586167800453514,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "chug",
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 129259,
+      "timeSec": 2.9310430839002266,
+      "band": "full_band_accent",
+      "strength": 0.78,
+      "layers": [
+        "chug",
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 136862,
+      "timeSec": 3.1034467120181404,
+      "band": "full_band_accent",
+      "strength": 0.9,
+      "layers": [
+        "chug",
+        "hat",
+        "kick",
+        "snare"
+      ]
+    },
+    {
+      "sample": 144466,
+      "timeSec": 3.275873015873016,
+      "band": "full_band_accent",
+      "strength": 0.78,
+      "layers": [
+        "chug",
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 152069,
+      "timeSec": 3.44827664399093,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "chug",
+        "double_kick",
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 155871,
+      "timeSec": 3.5344897959183674,
+      "band": "low_hit",
+      "strength": 0.82,
+      "layers": [
+        "double_kick"
+      ]
+    },
+    {
+      "sample": 159672,
+      "timeSec": 3.6206802721088436,
+      "band": "full_band_accent",
+      "strength": 0.82,
+      "layers": [
+        "chug",
+        "double_kick",
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 163474,
+      "timeSec": 3.706893424036281,
+      "band": "low_hit",
+      "strength": 0.82,
+      "layers": [
+        "double_kick"
+      ]
+    },
+    {
+      "sample": 167276,
+      "timeSec": 3.793106575963719,
+      "band": "full_band_accent",
+      "strength": 0.9,
+      "layers": [
+        "chug",
+        "double_kick",
+        "hat",
+        "kick",
+        "snare"
+      ]
+    },
+    {
+      "sample": 171078,
+      "timeSec": 3.8793197278911564,
+      "band": "low_hit",
+      "strength": 0.82,
+      "layers": [
+        "double_kick"
+      ]
+    },
+    {
+      "sample": 174879,
+      "timeSec": 3.9655102040816326,
+      "band": "full_band_accent",
+      "strength": 0.82,
+      "layers": [
+        "chug",
+        "double_kick",
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 178681,
+      "timeSec": 4.05172335600907,
+      "band": "low_hit",
+      "strength": 0.82,
+      "layers": [
+        "double_kick"
+      ]
+    },
+    {
+      "sample": 182483,
+      "timeSec": 4.137936507936508,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "chug",
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 190086,
+      "timeSec": 4.310340136054422,
+      "band": "full_band_accent",
+      "strength": 0.78,
+      "layers": [
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 197690,
+      "timeSec": 4.482766439909297,
+      "band": "full_band_accent",
+      "strength": 0.9,
+      "layers": [
+        "chug",
+        "hat",
+        "kick",
+        "snare"
+      ]
+    },
+    {
+      "sample": 205293,
+      "timeSec": 4.655170068027211,
+      "band": "full_band_accent",
+      "strength": 0.78,
+      "layers": [
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 212897,
+      "timeSec": 4.827596371882086,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "chug",
+        "double_kick",
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 216698,
+      "timeSec": 4.913786848072562,
+      "band": "low_hit",
+      "strength": 0.82,
+      "layers": [
+        "double_kick"
+      ]
+    },
+    {
+      "sample": 220500,
+      "timeSec": 5.0,
+      "band": "full_band_accent",
+      "strength": 0.82,
+      "layers": [
+        "double_kick",
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 224302,
+      "timeSec": 5.086213151927438,
+      "band": "low_hit",
+      "strength": 0.82,
+      "layers": [
+        "double_kick"
+      ]
+    },
+    {
+      "sample": 228103,
+      "timeSec": 5.172403628117914,
+      "band": "full_band_accent",
+      "strength": 0.9,
+      "layers": [
+        "chug",
+        "double_kick",
+        "hat",
+        "kick",
+        "snare"
+      ]
+    },
+    {
+      "sample": 231905,
+      "timeSec": 5.258616780045352,
+      "band": "low_hit",
+      "strength": 0.82,
+      "layers": [
+        "double_kick"
+      ]
+    },
+    {
+      "sample": 235707,
+      "timeSec": 5.344829931972789,
+      "band": "full_band_accent",
+      "strength": 0.82,
+      "layers": [
+        "double_kick",
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 239509,
+      "timeSec": 5.431043083900227,
+      "band": "low_hit",
+      "strength": 0.82,
+      "layers": [
+        "double_kick"
+      ]
+    },
+    {
+      "sample": 243310,
+      "timeSec": 5.517233560090703,
+      "band": "full_band_accent",
+      "strength": 1.0,
+      "layers": [
+        "accent",
+        "chug",
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 250914,
+      "timeSec": 5.689659863945578,
+      "band": "full_band_accent",
+      "strength": 0.78,
+      "layers": [
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 258517,
+      "timeSec": 5.862063492063492,
+      "band": "full_band_accent",
+      "strength": 0.9,
+      "layers": [
+        "chug",
+        "hat",
+        "kick",
+        "snare"
+      ]
+    },
+    {
+      "sample": 266121,
+      "timeSec": 6.034489795918367,
+      "band": "full_band_accent",
+      "strength": 0.78,
+      "layers": [
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 273724,
+      "timeSec": 6.206893424036281,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "chug",
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 281328,
+      "timeSec": 6.379319727891157,
+      "band": "full_band_accent",
+      "strength": 0.78,
+      "layers": [
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 288931,
+      "timeSec": 6.55172335600907,
+      "band": "full_band_accent",
+      "strength": 0.9,
+      "layers": [
+        "chug",
+        "hat",
+        "kick",
+        "snare"
+      ]
+    },
+    {
+      "sample": 296534,
+      "timeSec": 6.724126984126984,
+      "band": "full_band_accent",
+      "strength": 0.78,
+      "layers": [
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 304138,
+      "timeSec": 6.89655328798186,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "chug",
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 311741,
+      "timeSec": 7.068956916099773,
+      "band": "full_band_accent",
+      "strength": 0.78,
+      "layers": [
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 315543,
+      "timeSec": 7.155170068027211,
+      "band": "mid_hit",
+      "strength": 0.8,
+      "layers": [
+        "syncopated_chug"
+      ]
+    },
+    {
+      "sample": 319345,
+      "timeSec": 7.241383219954648,
+      "band": "full_band_accent",
+      "strength": 0.9,
+      "layers": [
+        "chug",
+        "hat",
+        "kick",
+        "snare"
+      ]
+    },
+    {
+      "sample": 326948,
+      "timeSec": 7.413786848072562,
+      "band": "full_band_accent",
+      "strength": 0.78,
+      "layers": [
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 334552,
+      "timeSec": 7.586213151927438,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "chug",
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 342155,
+      "timeSec": 7.758616780045352,
+      "band": "full_band_accent",
+      "strength": 0.8,
+      "layers": [
+        "hat",
+        "kick",
+        "syncopated_chug"
+      ]
+    },
+    {
+      "sample": 349759,
+      "timeSec": 7.931043083900227,
+      "band": "full_band_accent",
+      "strength": 0.9,
+      "layers": [
+        "chug",
+        "hat",
+        "kick",
+        "snare"
+      ]
+    },
+    {
+      "sample": 353560,
+      "timeSec": 8.017233560090704,
+      "band": "mid_hit",
+      "strength": 0.8,
+      "layers": [
+        "syncopated_chug"
+      ]
+    },
+    {
+      "sample": 357362,
+      "timeSec": 8.10344671201814,
+      "band": "full_band_accent",
+      "strength": 0.78,
+      "layers": [
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 364966,
+      "timeSec": 8.275873015873016,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "chug",
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 372569,
+      "timeSec": 8.44827664399093,
+      "band": "full_band_accent",
+      "strength": 0.78,
+      "layers": [
+        "chug",
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 380172,
+      "timeSec": 8.620680272108844,
+      "band": "full_band_accent",
+      "strength": 0.9,
+      "layers": [
+        "chug",
+        "hat",
+        "kick",
+        "snare"
+      ]
+    },
+    {
+      "sample": 387776,
+      "timeSec": 8.79310657596372,
+      "band": "full_band_accent",
+      "strength": 0.78,
+      "layers": [
+        "chug",
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 395379,
+      "timeSec": 8.965510204081633,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "chug",
+        "double_kick",
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 399181,
+      "timeSec": 9.05172335600907,
+      "band": "low_hit",
+      "strength": 0.82,
+      "layers": [
+        "double_kick"
+      ]
+    },
+    {
+      "sample": 402983,
+      "timeSec": 9.137936507936509,
+      "band": "full_band_accent",
+      "strength": 0.82,
+      "layers": [
+        "chug",
+        "double_kick",
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 406784,
+      "timeSec": 9.224126984126984,
+      "band": "low_hit",
+      "strength": 0.82,
+      "layers": [
+        "double_kick"
+      ]
+    },
+    {
+      "sample": 410586,
+      "timeSec": 9.310340136054421,
+      "band": "full_band_accent",
+      "strength": 0.9,
+      "layers": [
+        "chug",
+        "double_kick",
+        "hat",
+        "kick",
+        "snare"
+      ]
+    },
+    {
+      "sample": 414388,
+      "timeSec": 9.39655328798186,
+      "band": "low_hit",
+      "strength": 0.82,
+      "layers": [
+        "double_kick"
+      ]
+    },
+    {
+      "sample": 418190,
+      "timeSec": 9.482766439909296,
+      "band": "full_band_accent",
+      "strength": 0.82,
+      "layers": [
+        "chug",
+        "double_kick",
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 421991,
+      "timeSec": 9.568956916099774,
+      "band": "low_hit",
+      "strength": 0.82,
+      "layers": [
+        "double_kick"
+      ]
+    },
+    {
+      "sample": 425793,
+      "timeSec": 9.65517006802721,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "chug",
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 433397,
+      "timeSec": 9.827596371882086,
+      "band": "full_band_accent",
+      "strength": 0.78,
+      "layers": [
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 441000,
+      "timeSec": 10.0,
+      "band": "full_band_accent",
+      "strength": 0.9,
+      "layers": [
+        "chug",
+        "hat",
+        "kick",
+        "snare"
+      ]
+    },
+    {
+      "sample": 448603,
+      "timeSec": 10.172403628117914,
+      "band": "full_band_accent",
+      "strength": 0.78,
+      "layers": [
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 456207,
+      "timeSec": 10.34482993197279,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "chug",
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 463810,
+      "timeSec": 10.517233560090704,
+      "band": "full_band_accent",
+      "strength": 0.78,
+      "layers": [
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 471414,
+      "timeSec": 10.689659863945579,
+      "band": "full_band_accent",
+      "strength": 0.9,
+      "layers": [
+        "chug",
+        "hat",
+        "kick",
+        "snare"
+      ]
+    },
+    {
+      "sample": 479017,
+      "timeSec": 10.862063492063491,
+      "band": "full_band_accent",
+      "strength": 0.78,
+      "layers": [
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 486621,
+      "timeSec": 11.034489795918367,
+      "band": "full_band_accent",
+      "strength": 1.0,
+      "layers": [
+        "accent",
+        "chug",
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 494224,
+      "timeSec": 11.20689342403628,
+      "band": "full_band_accent",
+      "strength": 0.78,
+      "layers": [
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 501828,
+      "timeSec": 11.379319727891156,
+      "band": "full_band_accent",
+      "strength": 0.9,
+      "layers": [
+        "chug",
+        "hat",
+        "kick",
+        "snare"
+      ]
+    },
+    {
+      "sample": 509431,
+      "timeSec": 11.55172335600907,
+      "band": "full_band_accent",
+      "strength": 0.78,
+      "layers": [
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 517034,
+      "timeSec": 11.724126984126984,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "chug",
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 524638,
+      "timeSec": 11.89655328798186,
+      "band": "full_band_accent",
+      "strength": 0.78,
+      "layers": [
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 532241,
+      "timeSec": 12.068956916099774,
+      "band": "full_band_accent",
+      "strength": 0.9,
+      "layers": [
+        "chug",
+        "hat",
+        "kick",
+        "snare"
+      ]
+    },
+    {
+      "sample": 539845,
+      "timeSec": 12.241383219954649,
+      "band": "full_band_accent",
+      "strength": 0.78,
+      "layers": [
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 547448,
+      "timeSec": 12.413786848072561,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "chug",
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 555052,
+      "timeSec": 12.586213151927439,
+      "band": "full_band_accent",
+      "strength": 0.78,
+      "layers": [
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 558853,
+      "timeSec": 12.672403628117914,
+      "band": "mid_hit",
+      "strength": 0.8,
+      "layers": [
+        "syncopated_chug"
+      ]
+    },
+    {
+      "sample": 562655,
+      "timeSec": 12.758616780045351,
+      "band": "full_band_accent",
+      "strength": 0.9,
+      "layers": [
+        "chug",
+        "hat",
+        "kick",
+        "snare"
+      ]
+    },
+    {
+      "sample": 570259,
+      "timeSec": 12.931043083900226,
+      "band": "full_band_accent",
+      "strength": 0.78,
+      "layers": [
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 577862,
+      "timeSec": 13.10344671201814,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "chug",
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 585466,
+      "timeSec": 13.275873015873016,
+      "band": "full_band_accent",
+      "strength": 0.8,
+      "layers": [
+        "hat",
+        "kick",
+        "syncopated_chug"
+      ]
+    },
+    {
+      "sample": 593069,
+      "timeSec": 13.44827664399093,
+      "band": "full_band_accent",
+      "strength": 0.9,
+      "layers": [
+        "chug",
+        "hat",
+        "kick",
+        "snare"
+      ]
+    },
+    {
+      "sample": 596871,
+      "timeSec": 13.534489795918367,
+      "band": "mid_hit",
+      "strength": 0.8,
+      "layers": [
+        "syncopated_chug"
+      ]
+    },
+    {
+      "sample": 600672,
+      "timeSec": 13.620680272108844,
+      "band": "full_band_accent",
+      "strength": 0.78,
+      "layers": [
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 608276,
+      "timeSec": 13.79310657596372,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "chug",
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 615879,
+      "timeSec": 13.965510204081633,
+      "band": "full_band_accent",
+      "strength": 0.78,
+      "layers": [
+        "chug",
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 623483,
+      "timeSec": 14.137936507936509,
+      "band": "full_band_accent",
+      "strength": 0.9,
+      "layers": [
+        "chug",
+        "hat",
+        "kick",
+        "snare"
+      ]
+    },
+    {
+      "sample": 631086,
+      "timeSec": 14.310340136054421,
+      "band": "full_band_accent",
+      "strength": 0.78,
+      "layers": [
+        "chug",
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 638690,
+      "timeSec": 14.482766439909296,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "chug",
+        "double_kick",
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 642491,
+      "timeSec": 14.568956916099774,
+      "band": "low_hit",
+      "strength": 0.82,
+      "layers": [
+        "double_kick"
+      ]
+    },
+    {
+      "sample": 646293,
+      "timeSec": 14.65517006802721,
+      "band": "full_band_accent",
+      "strength": 0.82,
+      "layers": [
+        "chug",
+        "double_kick",
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 650095,
+      "timeSec": 14.741383219954649,
+      "band": "low_hit",
+      "strength": 0.82,
+      "layers": [
+        "double_kick"
+      ]
+    },
+    {
+      "sample": 653897,
+      "timeSec": 14.827596371882086,
+      "band": "full_band_accent",
+      "strength": 0.9,
+      "layers": [
+        "chug",
+        "double_kick",
+        "hat",
+        "kick",
+        "snare"
+      ]
+    },
+    {
+      "sample": 657698,
+      "timeSec": 14.913786848072561,
+      "band": "low_hit",
+      "strength": 0.82,
+      "layers": [
+        "double_kick"
+      ]
+    },
+    {
+      "sample": 661500,
+      "timeSec": 15.0,
+      "band": "full_band_accent",
+      "strength": 0.82,
+      "layers": [
+        "chug",
+        "double_kick",
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 665302,
+      "timeSec": 15.086213151927439,
+      "band": "low_hit",
+      "strength": 0.82,
+      "layers": [
+        "double_kick"
+      ]
+    },
+    {
+      "sample": 669103,
+      "timeSec": 15.172403628117914,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "chug",
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 676707,
+      "timeSec": 15.34482993197279,
+      "band": "full_band_accent",
+      "strength": 0.78,
+      "layers": [
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 684310,
+      "timeSec": 15.517233560090704,
+      "band": "full_band_accent",
+      "strength": 0.9,
+      "layers": [
+        "chug",
+        "hat",
+        "kick",
+        "snare"
+      ]
+    },
+    {
+      "sample": 691914,
+      "timeSec": 15.689659863945579,
+      "band": "full_band_accent",
+      "strength": 0.78,
+      "layers": [
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 699517,
+      "timeSec": 15.862063492063491,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "chug",
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 707121,
+      "timeSec": 16.03448979591837,
+      "band": "full_band_accent",
+      "strength": 0.78,
+      "layers": [
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 714724,
+      "timeSec": 16.20689342403628,
+      "band": "full_band_accent",
+      "strength": 0.9,
+      "layers": [
+        "chug",
+        "hat",
+        "kick",
+        "snare"
+      ]
+    },
+    {
+      "sample": 722328,
+      "timeSec": 16.379319727891158,
+      "band": "full_band_accent",
+      "strength": 0.78,
+      "layers": [
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 729931,
+      "timeSec": 16.55172335600907,
+      "band": "full_band_accent",
+      "strength": 1.0,
+      "layers": [
+        "accent",
+        "chug",
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 737534,
+      "timeSec": 16.724126984126983,
+      "band": "full_band_accent",
+      "strength": 0.78,
+      "layers": [
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 745138,
+      "timeSec": 16.89655328798186,
+      "band": "full_band_accent",
+      "strength": 0.9,
+      "layers": [
+        "chug",
+        "hat",
+        "kick",
+        "snare"
+      ]
+    },
+    {
+      "sample": 752741,
+      "timeSec": 17.068956916099772,
+      "band": "full_band_accent",
+      "strength": 0.78,
+      "layers": [
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 760345,
+      "timeSec": 17.24138321995465,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "chug",
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 767948,
+      "timeSec": 17.41378684807256,
+      "band": "full_band_accent",
+      "strength": 0.78,
+      "layers": [
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 775552,
+      "timeSec": 17.58621315192744,
+      "band": "full_band_accent",
+      "strength": 0.9,
+      "layers": [
+        "chug",
+        "hat",
+        "kick",
+        "snare"
+      ]
+    },
+    {
+      "sample": 783155,
+      "timeSec": 17.75861678004535,
+      "band": "full_band_accent",
+      "strength": 0.78,
+      "layers": [
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 790759,
+      "timeSec": 17.931043083900228,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "chug",
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 798362,
+      "timeSec": 18.10344671201814,
+      "band": "full_band_accent",
+      "strength": 0.78,
+      "layers": [
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 802164,
+      "timeSec": 18.18965986394558,
+      "band": "mid_hit",
+      "strength": 0.8,
+      "layers": [
+        "syncopated_chug"
+      ]
+    },
+    {
+      "sample": 805966,
+      "timeSec": 18.275873015873017,
+      "band": "full_band_accent",
+      "strength": 0.9,
+      "layers": [
+        "chug",
+        "hat",
+        "kick",
+        "snare"
+      ]
+    },
+    {
+      "sample": 813569,
+      "timeSec": 18.44827664399093,
+      "band": "full_band_accent",
+      "strength": 0.78,
+      "layers": [
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 821172,
+      "timeSec": 18.620680272108842,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "chug",
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 828776,
+      "timeSec": 18.79310657596372,
+      "band": "full_band_accent",
+      "strength": 0.8,
+      "layers": [
+        "hat",
+        "kick",
+        "syncopated_chug"
+      ]
+    },
+    {
+      "sample": 836379,
+      "timeSec": 18.96551020408163,
+      "band": "full_band_accent",
+      "strength": 0.9,
+      "layers": [
+        "chug",
+        "hat",
+        "kick",
+        "snare"
+      ]
+    },
+    {
+      "sample": 840181,
+      "timeSec": 19.05172335600907,
+      "band": "mid_hit",
+      "strength": 0.8,
+      "layers": [
+        "syncopated_chug"
+      ]
+    },
+    {
+      "sample": 843983,
+      "timeSec": 19.13793650793651,
+      "band": "full_band_accent",
+      "strength": 0.78,
+      "layers": [
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 851586,
+      "timeSec": 19.31034013605442,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "chug",
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 859190,
+      "timeSec": 19.482766439909298,
+      "band": "full_band_accent",
+      "strength": 0.78,
+      "layers": [
+        "chug",
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 866793,
+      "timeSec": 19.65517006802721,
+      "band": "full_band_accent",
+      "strength": 0.9,
+      "layers": [
+        "chug",
+        "hat",
+        "kick",
+        "snare"
+      ]
+    },
+    {
+      "sample": 874397,
+      "timeSec": 19.827596371882088,
+      "band": "full_band_accent",
+      "strength": 0.78,
+      "layers": [
+        "chug",
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 882000,
+      "timeSec": 20.0,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "chug",
+        "double_kick",
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 885802,
+      "timeSec": 20.08621315192744,
+      "band": "low_hit",
+      "strength": 0.82,
+      "layers": [
+        "double_kick"
+      ]
+    },
+    {
+      "sample": 889603,
+      "timeSec": 20.172403628117912,
+      "band": "full_band_accent",
+      "strength": 0.82,
+      "layers": [
+        "chug",
+        "double_kick",
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 893405,
+      "timeSec": 20.25861678004535,
+      "band": "low_hit",
+      "strength": 0.82,
+      "layers": [
+        "double_kick"
+      ]
+    },
+    {
+      "sample": 897207,
+      "timeSec": 20.34482993197279,
+      "band": "full_band_accent",
+      "strength": 0.9,
+      "layers": [
+        "chug",
+        "double_kick",
+        "hat",
+        "kick",
+        "snare"
+      ]
+    },
+    {
+      "sample": 901009,
+      "timeSec": 20.431043083900228,
+      "band": "low_hit",
+      "strength": 0.82,
+      "layers": [
+        "double_kick"
+      ]
+    },
+    {
+      "sample": 904810,
+      "timeSec": 20.517233560090702,
+      "band": "full_band_accent",
+      "strength": 0.82,
+      "layers": [
+        "chug",
+        "double_kick",
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 908612,
+      "timeSec": 20.60344671201814,
+      "band": "low_hit",
+      "strength": 0.82,
+      "layers": [
+        "double_kick"
+      ]
+    },
+    {
+      "sample": 912414,
+      "timeSec": 20.68965986394558,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "chug",
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 920017,
+      "timeSec": 20.86206349206349,
+      "band": "full_band_accent",
+      "strength": 0.78,
+      "layers": [
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 927621,
+      "timeSec": 21.03448979591837,
+      "band": "full_band_accent",
+      "strength": 0.9,
+      "layers": [
+        "chug",
+        "hat",
+        "kick",
+        "snare"
+      ]
+    },
+    {
+      "sample": 935224,
+      "timeSec": 21.20689342403628,
+      "band": "full_band_accent",
+      "strength": 0.78,
+      "layers": [
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 942828,
+      "timeSec": 21.379319727891158,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "chug",
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 950431,
+      "timeSec": 21.55172335600907,
+      "band": "full_band_accent",
+      "strength": 0.78,
+      "layers": [
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 958034,
+      "timeSec": 21.724126984126983,
+      "band": "full_band_accent",
+      "strength": 0.9,
+      "layers": [
+        "chug",
+        "hat",
+        "kick",
+        "snare"
+      ]
+    },
+    {
+      "sample": 965638,
+      "timeSec": 21.89655328798186,
+      "band": "full_band_accent",
+      "strength": 0.78,
+      "layers": [
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 973241,
+      "timeSec": 22.068956916099772,
+      "band": "full_band_accent",
+      "strength": 1.0,
+      "layers": [
+        "accent",
+        "chug",
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 988448,
+      "timeSec": 22.41378684807256,
+      "band": "full_band_accent",
+      "strength": 0.9,
+      "layers": [
+        "chug",
+        "hat",
+        "kick",
+        "snare"
+      ]
+    },
+    {
+      "sample": 1003655,
+      "timeSec": 22.75861678004535,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "chug",
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 1018862,
+      "timeSec": 23.10344671201814,
+      "band": "full_band_accent",
+      "strength": 0.9,
+      "layers": [
+        "chug",
+        "hat",
+        "kick",
+        "snare"
+      ]
+    },
+    {
+      "sample": 1034069,
+      "timeSec": 23.44827664399093,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "chug",
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 1049276,
+      "timeSec": 23.79310657596372,
+      "band": "full_band_accent",
+      "strength": 0.9,
+      "layers": [
+        "chug",
+        "hat",
+        "kick",
+        "snare"
+      ]
+    },
+    {
+      "sample": 1064483,
+      "timeSec": 24.13793650793651,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "chug",
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 1079690,
+      "timeSec": 24.482766439909298,
+      "band": "full_band_accent",
+      "strength": 0.9,
+      "layers": [
+        "chug",
+        "hat",
+        "kick",
+        "snare"
+      ]
+    },
+    {
+      "sample": 1094897,
+      "timeSec": 24.827596371882088,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "chug",
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 1110103,
+      "timeSec": 25.172403628117912,
+      "band": "full_band_accent",
+      "strength": 0.9,
+      "layers": [
+        "chug",
+        "hat",
+        "kick",
+        "snare"
+      ]
+    },
+    {
+      "sample": 1125310,
+      "timeSec": 25.517233560090702,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "chug",
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 1140517,
+      "timeSec": 25.86206349206349,
+      "band": "full_band_accent",
+      "strength": 0.9,
+      "layers": [
+        "chug",
+        "hat",
+        "kick",
+        "snare"
+      ]
+    },
+    {
+      "sample": 1155724,
+      "timeSec": 26.20689342403628,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "chug",
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 1170931,
+      "timeSec": 26.55172335600907,
+      "band": "full_band_accent",
+      "strength": 0.9,
+      "layers": [
+        "chug",
+        "hat",
+        "kick",
+        "snare"
+      ]
+    },
+    {
+      "sample": 1186138,
+      "timeSec": 26.89655328798186,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "chug",
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 1201345,
+      "timeSec": 27.24138321995465,
+      "band": "full_band_accent",
+      "strength": 0.9,
+      "layers": [
+        "chug",
+        "hat",
+        "kick",
+        "snare"
+      ]
+    },
+    {
+      "sample": 1216552,
+      "timeSec": 27.58621315192744,
+      "band": "full_band_accent",
+      "strength": 1.0,
+      "layers": [
+        "accent",
+        "chug",
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 1224155,
+      "timeSec": 27.75861678004535,
+      "band": "full_band_accent",
+      "strength": 0.78,
+      "layers": [
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 1231759,
+      "timeSec": 27.931043083900228,
+      "band": "full_band_accent",
+      "strength": 0.9,
+      "layers": [
+        "chug",
+        "hat",
+        "kick",
+        "snare"
+      ]
+    },
+    {
+      "sample": 1239362,
+      "timeSec": 28.10344671201814,
+      "band": "full_band_accent",
+      "strength": 0.78,
+      "layers": [
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 1246966,
+      "timeSec": 28.275873015873017,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "chug",
+        "double_kick",
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 1250767,
+      "timeSec": 28.36206349206349,
+      "band": "low_hit",
+      "strength": 0.82,
+      "layers": [
+        "double_kick"
+      ]
+    },
+    {
+      "sample": 1254569,
+      "timeSec": 28.44827664399093,
+      "band": "full_band_accent",
+      "strength": 0.82,
+      "layers": [
+        "double_kick",
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 1258371,
+      "timeSec": 28.53448979591837,
+      "band": "low_hit",
+      "strength": 0.82,
+      "layers": [
+        "double_kick"
+      ]
+    },
+    {
+      "sample": 1262172,
+      "timeSec": 28.620680272108842,
+      "band": "full_band_accent",
+      "strength": 0.9,
+      "layers": [
+        "chug",
+        "double_kick",
+        "hat",
+        "kick",
+        "snare"
+      ]
+    },
+    {
+      "sample": 1265974,
+      "timeSec": 28.70689342403628,
+      "band": "low_hit",
+      "strength": 0.82,
+      "layers": [
+        "double_kick"
+      ]
+    },
+    {
+      "sample": 1269776,
+      "timeSec": 28.79310657596372,
+      "band": "full_band_accent",
+      "strength": 0.82,
+      "layers": [
+        "double_kick",
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 1273578,
+      "timeSec": 28.879319727891158,
+      "band": "low_hit",
+      "strength": 0.82,
+      "layers": [
+        "double_kick"
+      ]
+    },
+    {
+      "sample": 1277379,
+      "timeSec": 28.96551020408163,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "chug",
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 1284983,
+      "timeSec": 29.13793650793651,
+      "band": "full_band_accent",
+      "strength": 0.78,
+      "layers": [
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 1288784,
+      "timeSec": 29.224126984126983,
+      "band": "mid_hit",
+      "strength": 0.8,
+      "layers": [
+        "syncopated_chug"
+      ]
+    },
+    {
+      "sample": 1292586,
+      "timeSec": 29.31034013605442,
+      "band": "full_band_accent",
+      "strength": 0.9,
+      "layers": [
+        "chug",
+        "hat",
+        "kick",
+        "snare"
+      ]
+    },
+    {
+      "sample": 1300190,
+      "timeSec": 29.482766439909298,
+      "band": "full_band_accent",
+      "strength": 0.78,
+      "layers": [
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 1307793,
+      "timeSec": 29.65517006802721,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "chug",
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 1315397,
+      "timeSec": 29.827596371882088,
+      "band": "full_band_accent",
+      "strength": 0.8,
+      "layers": [
+        "hat",
+        "kick",
+        "syncopated_chug"
+      ]
+    },
+    {
+      "sample": 1323000,
+      "timeSec": 30.0,
+      "band": "full_band_accent",
+      "strength": 0.9,
+      "layers": [
+        "chug",
+        "hat",
+        "kick",
+        "snare"
+      ]
+    },
+    {
+      "sample": 1326802,
+      "timeSec": 30.08621315192744,
+      "band": "mid_hit",
+      "strength": 0.8,
+      "layers": [
+        "syncopated_chug"
+      ]
+    },
+    {
+      "sample": 1330603,
+      "timeSec": 30.172403628117912,
+      "band": "full_band_accent",
+      "strength": 0.78,
+      "layers": [
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 1338207,
+      "timeSec": 30.34482993197279,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "chug",
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 1345810,
+      "timeSec": 30.517233560090702,
+      "band": "full_band_accent",
+      "strength": 0.78,
+      "layers": [
+        "chug",
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 1353414,
+      "timeSec": 30.68965986394558,
+      "band": "full_band_accent",
+      "strength": 0.9,
+      "layers": [
+        "chug",
+        "hat",
+        "kick",
+        "snare"
+      ]
+    },
+    {
+      "sample": 1361017,
+      "timeSec": 30.86206349206349,
+      "band": "full_band_accent",
+      "strength": 0.78,
+      "layers": [
+        "chug",
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 1368621,
+      "timeSec": 31.03448979591837,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "chug",
+        "double_kick",
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 1372422,
+      "timeSec": 31.120680272108842,
+      "band": "low_hit",
+      "strength": 0.82,
+      "layers": [
+        "double_kick"
+      ]
+    },
+    {
+      "sample": 1376224,
+      "timeSec": 31.20689342403628,
+      "band": "full_band_accent",
+      "strength": 0.82,
+      "layers": [
+        "chug",
+        "double_kick",
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 1380026,
+      "timeSec": 31.29310657596372,
+      "band": "low_hit",
+      "strength": 0.82,
+      "layers": [
+        "double_kick"
+      ]
+    },
+    {
+      "sample": 1383828,
+      "timeSec": 31.379319727891158,
+      "band": "full_band_accent",
+      "strength": 0.9,
+      "layers": [
+        "chug",
+        "double_kick",
+        "hat",
+        "kick",
+        "snare"
+      ]
+    },
+    {
+      "sample": 1387629,
+      "timeSec": 31.46551020408163,
+      "band": "low_hit",
+      "strength": 0.82,
+      "layers": [
+        "double_kick"
+      ]
+    },
+    {
+      "sample": 1391431,
+      "timeSec": 31.55172335600907,
+      "band": "full_band_accent",
+      "strength": 0.82,
+      "layers": [
+        "chug",
+        "double_kick",
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 1395233,
+      "timeSec": 31.63793650793651,
+      "band": "low_hit",
+      "strength": 0.82,
+      "layers": [
+        "double_kick"
+      ]
+    },
+    {
+      "sample": 1399034,
+      "timeSec": 31.724126984126983,
+      "band": "full_band_accent",
+      "strength": 1.0,
+      "layers": [
+        "accent",
+        "chug",
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 1406638,
+      "timeSec": 31.89655328798186,
+      "band": "full_band_accent",
+      "strength": 0.78,
+      "layers": [
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 1414241,
+      "timeSec": 32.06895691609977,
+      "band": "full_band_accent",
+      "strength": 0.9,
+      "layers": [
+        "chug",
+        "hat",
+        "kick",
+        "snare"
+      ]
+    },
+    {
+      "sample": 1421845,
+      "timeSec": 32.24138321995465,
+      "band": "full_band_accent",
+      "strength": 0.78,
+      "layers": [
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 1429448,
+      "timeSec": 32.41378684807256,
+      "band": "full_band_accent",
+      "strength": 0.86,
+      "layers": [
+        "chug",
+        "double_kick",
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 1433250,
+      "timeSec": 32.5,
+      "band": "low_hit",
+      "strength": 0.82,
+      "layers": [
+        "double_kick"
+      ]
+    },
+    {
+      "sample": 1437052,
+      "timeSec": 32.58621315192744,
+      "band": "full_band_accent",
+      "strength": 0.82,
+      "layers": [
+        "double_kick",
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 1440853,
+      "timeSec": 32.67240362811791,
+      "band": "low_hit",
+      "strength": 0.82,
+      "layers": [
+        "double_kick"
+      ]
+    },
+    {
+      "sample": 1444655,
+      "timeSec": 32.75861678004535,
+      "band": "full_band_accent",
+      "strength": 0.9,
+      "layers": [
+        "chug",
+        "double_kick",
+        "hat",
+        "kick",
+        "snare"
+      ]
+    },
+    {
+      "sample": 1448457,
+      "timeSec": 32.84482993197279,
+      "band": "low_hit",
+      "strength": 0.82,
+      "layers": [
+        "double_kick"
+      ]
+    },
+    {
+      "sample": 1452259,
+      "timeSec": 32.93104308390023,
+      "band": "full_band_accent",
+      "strength": 0.82,
+      "layers": [
+        "double_kick",
+        "hat",
+        "kick"
+      ]
+    },
+    {
+      "sample": 1456060,
+      "timeSec": 33.0172335600907,
+      "band": "low_hit",
+      "strength": 0.82,
+      "layers": [
+        "double_kick"
+      ]
+    }
+  ]
+}

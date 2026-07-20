@@ -1,0 +1,469 @@
+{
+  "schemaVersion": "2.0",
+  "evaluation": "one-to-one nearest matching; ground truth is not supplied to the detector",
+  "windowsMs": [
+    10,
+    20,
+    30,
+    50
+  ],
+  "strongEventDefinition": {
+    "groundTruthStrengthAtLeast": 0.8,
+    "predictionSet": "all candidates; predictions matched to weaker scored onsets are neutral, unmatched predictions are false positives"
+  },
+  "dimensions": {
+    "coverageEvaluation": {
+      "status": "not_applicable",
+      "reason": "Synthetic demo fixtures have no isolated vocal or lyric phrase labels."
+    },
+    "eventEvaluation": {
+      "status": "measured",
+      "metrics": "precision/recall/F1 at ±10/±20/±30/±50 ms"
+    },
+    "chartEvaluation": {
+      "status": "measured",
+      "metrics": "straight 1/16 grid-cell occupancy accuracy"
+    },
+    "productEvaluation": {
+      "status": "not_measured",
+      "reason": "The offline fixture run has no timed human editing session."
+    }
+  },
+  "tracks": [
+    {
+      "slug": "glass-tide",
+      "title": "玻璃潮汐",
+      "sampleRate": 44100,
+      "durationSec": 30.0,
+      "groundTruthCount": 38,
+      "predictionCount": 38,
+      "strongGroundTruthCount": 15,
+      "strongEvaluationCandidateCount": 38,
+      "duplicatePredictionsWithin8Ms": 0,
+      "bpm": {
+        "expected": 96.0,
+        "estimated": 96.0,
+        "absoluteError": 0.0,
+        "relativeError": 0.0
+      },
+      "offset": {
+        "expectedSample": 0,
+        "estimatedSample": 0,
+        "absoluteErrorMs": 0.0
+      },
+      "allEvents": {
+        "10": {
+          "windowMs": 10,
+          "truePositives": 38,
+          "falsePositives": 0,
+          "falseNegatives": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "medianAbsoluteTimingErrorMs": 0.21542,
+          "p95AbsoluteTimingErrorMs": 1.201814,
+          "falsePositivesPerMinute": 0.0,
+          "falseNegativesPerMinute": 0.0
+        },
+        "20": {
+          "windowMs": 20,
+          "truePositives": 38,
+          "falsePositives": 0,
+          "falseNegatives": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "medianAbsoluteTimingErrorMs": 0.21542,
+          "p95AbsoluteTimingErrorMs": 1.201814,
+          "falsePositivesPerMinute": 0.0,
+          "falseNegativesPerMinute": 0.0
+        },
+        "30": {
+          "windowMs": 30,
+          "truePositives": 38,
+          "falsePositives": 0,
+          "falseNegatives": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "medianAbsoluteTimingErrorMs": 0.21542,
+          "p95AbsoluteTimingErrorMs": 1.201814,
+          "falsePositivesPerMinute": 0.0,
+          "falseNegativesPerMinute": 0.0
+        },
+        "50": {
+          "windowMs": 50,
+          "truePositives": 38,
+          "falsePositives": 0,
+          "falseNegatives": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "medianAbsoluteTimingErrorMs": 0.21542,
+          "p95AbsoluteTimingErrorMs": 1.201814,
+          "falsePositivesPerMinute": 0.0,
+          "falseNegativesPerMinute": 0.0
+        }
+      },
+      "strongEvents": {
+        "10": {
+          "windowMs": 10,
+          "truePositives": 15,
+          "falsePositives": 0,
+          "falseNegatives": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "medianAbsoluteTimingErrorMs": 0.249433,
+          "p95AbsoluteTimingErrorMs": 1.043084,
+          "falsePositivesPerMinute": 0.0,
+          "falseNegativesPerMinute": 0.0
+        },
+        "20": {
+          "windowMs": 20,
+          "truePositives": 15,
+          "falsePositives": 0,
+          "falseNegatives": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "medianAbsoluteTimingErrorMs": 0.249433,
+          "p95AbsoluteTimingErrorMs": 1.043084,
+          "falsePositivesPerMinute": 0.0,
+          "falseNegativesPerMinute": 0.0
+        },
+        "30": {
+          "windowMs": 30,
+          "truePositives": 15,
+          "falsePositives": 0,
+          "falseNegatives": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "medianAbsoluteTimingErrorMs": 0.249433,
+          "p95AbsoluteTimingErrorMs": 1.043084,
+          "falsePositivesPerMinute": 0.0,
+          "falseNegativesPerMinute": 0.0
+        },
+        "50": {
+          "windowMs": 50,
+          "truePositives": 15,
+          "falsePositives": 0,
+          "falseNegatives": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "medianAbsoluteTimingErrorMs": 0.249433,
+          "p95AbsoluteTimingErrorMs": 1.043084,
+          "falsePositivesPerMinute": 0.0,
+          "falseNegativesPerMinute": 0.0
+        }
+      },
+      "chartEvaluation": {
+        "gridCellAccuracy": {
+          "definition": "Jaccard occupancy accuracy on the expected straight 1/16 grid",
+          "subdivisionsPerBeat": 4,
+          "groundTruthCellCount": 37,
+          "predictedCellCount": 37,
+          "correctCellCount": 37,
+          "extraCellCount": 0,
+          "missingCellCount": 0,
+          "accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      }
+    },
+    {
+      "slug": "iron-rift",
+      "title": "钢铁断层",
+      "sampleRate": 44100,
+      "durationSec": 33.10344671201814,
+      "groundTruthCount": 216,
+      "predictionCount": 202,
+      "strongGroundTruthCount": 156,
+      "strongEvaluationCandidateCount": 202,
+      "duplicatePredictionsWithin8Ms": 0,
+      "bpm": {
+        "expected": 174.0,
+        "estimated": 174.0,
+        "absoluteError": 0.0,
+        "relativeError": 0.0
+      },
+      "offset": {
+        "expectedSample": 0,
+        "estimatedSample": 0,
+        "absoluteErrorMs": 0.0
+      },
+      "allEvents": {
+        "10": {
+          "windowMs": 10,
+          "truePositives": 202,
+          "falsePositives": 0,
+          "falseNegatives": 14,
+          "precision": 1.0,
+          "recall": 0.935185,
+          "f1": 0.966507,
+          "medianAbsoluteTimingErrorMs": 0.249433,
+          "p95AbsoluteTimingErrorMs": 4.399093,
+          "falsePositivesPerMinute": 0.0,
+          "falseNegativesPerMinute": 25.375001
+        },
+        "20": {
+          "windowMs": 20,
+          "truePositives": 202,
+          "falsePositives": 0,
+          "falseNegatives": 14,
+          "precision": 1.0,
+          "recall": 0.935185,
+          "f1": 0.966507,
+          "medianAbsoluteTimingErrorMs": 0.249433,
+          "p95AbsoluteTimingErrorMs": 4.399093,
+          "falsePositivesPerMinute": 0.0,
+          "falseNegativesPerMinute": 25.375001
+        },
+        "30": {
+          "windowMs": 30,
+          "truePositives": 202,
+          "falsePositives": 0,
+          "falseNegatives": 14,
+          "precision": 1.0,
+          "recall": 0.935185,
+          "f1": 0.966507,
+          "medianAbsoluteTimingErrorMs": 0.249433,
+          "p95AbsoluteTimingErrorMs": 4.399093,
+          "falsePositivesPerMinute": 0.0,
+          "falseNegativesPerMinute": 25.375001
+        },
+        "50": {
+          "windowMs": 50,
+          "truePositives": 202,
+          "falsePositives": 0,
+          "falseNegatives": 14,
+          "precision": 1.0,
+          "recall": 0.935185,
+          "f1": 0.966507,
+          "medianAbsoluteTimingErrorMs": 0.249433,
+          "p95AbsoluteTimingErrorMs": 4.399093,
+          "falsePositivesPerMinute": 0.0,
+          "falseNegativesPerMinute": 25.375001
+        }
+      },
+      "strongEvents": {
+        "10": {
+          "windowMs": 10,
+          "truePositives": 142,
+          "falsePositives": 0,
+          "falseNegatives": 14,
+          "precision": 1.0,
+          "recall": 0.910256,
+          "f1": 0.95302,
+          "medianAbsoluteTimingErrorMs": 0.249433,
+          "p95AbsoluteTimingErrorMs": 4.512472,
+          "falsePositivesPerMinute": 0.0,
+          "falseNegativesPerMinute": 25.375001
+        },
+        "20": {
+          "windowMs": 20,
+          "truePositives": 142,
+          "falsePositives": 0,
+          "falseNegatives": 14,
+          "precision": 1.0,
+          "recall": 0.910256,
+          "f1": 0.95302,
+          "medianAbsoluteTimingErrorMs": 0.249433,
+          "p95AbsoluteTimingErrorMs": 4.512472,
+          "falsePositivesPerMinute": 0.0,
+          "falseNegativesPerMinute": 25.375001
+        },
+        "30": {
+          "windowMs": 30,
+          "truePositives": 142,
+          "falsePositives": 0,
+          "falseNegatives": 14,
+          "precision": 1.0,
+          "recall": 0.910256,
+          "f1": 0.95302,
+          "medianAbsoluteTimingErrorMs": 0.249433,
+          "p95AbsoluteTimingErrorMs": 4.512472,
+          "falsePositivesPerMinute": 0.0,
+          "falseNegativesPerMinute": 25.375001
+        },
+        "50": {
+          "windowMs": 50,
+          "truePositives": 142,
+          "falsePositives": 0,
+          "falseNegatives": 14,
+          "precision": 1.0,
+          "recall": 0.910256,
+          "f1": 0.95302,
+          "medianAbsoluteTimingErrorMs": 0.249433,
+          "p95AbsoluteTimingErrorMs": 4.512472,
+          "falsePositivesPerMinute": 0.0,
+          "falseNegativesPerMinute": 25.375001
+        }
+      },
+      "chartEvaluation": {
+        "gridCellAccuracy": {
+          "definition": "Jaccard occupancy accuracy on the expected straight 1/16 grid",
+          "subdivisionsPerBeat": 4,
+          "groundTruthCellCount": 216,
+          "predictedCellCount": 202,
+          "correctCellCount": 202,
+          "extraCellCount": 0,
+          "missingCellCount": 14,
+          "accuracy": 0.935185,
+          "precision": 1.0,
+          "recall": 0.935185,
+          "f1": 0.966507
+        }
+      }
+    },
+    {
+      "slug": "neon-pulse",
+      "title": "霓虹脉冲",
+      "sampleRate": 44100,
+      "durationSec": 30.0,
+      "groundTruthCount": 144,
+      "predictionCount": 136,
+      "strongGroundTruthCount": 64,
+      "strongEvaluationCandidateCount": 136,
+      "duplicatePredictionsWithin8Ms": 0,
+      "bpm": {
+        "expected": 128.0,
+        "estimated": 128.0,
+        "absoluteError": 0.0,
+        "relativeError": 0.0
+      },
+      "offset": {
+        "expectedSample": 0,
+        "estimatedSample": 0,
+        "absoluteErrorMs": 0.0
+      },
+      "allEvents": {
+        "10": {
+          "windowMs": 10,
+          "truePositives": 136,
+          "falsePositives": 0,
+          "falseNegatives": 8,
+          "precision": 1.0,
+          "recall": 0.944444,
+          "f1": 0.971429,
+          "medianAbsoluteTimingErrorMs": 0.226757,
+          "p95AbsoluteTimingErrorMs": 0.498866,
+          "falsePositivesPerMinute": 0.0,
+          "falseNegativesPerMinute": 16.0
+        },
+        "20": {
+          "windowMs": 20,
+          "truePositives": 136,
+          "falsePositives": 0,
+          "falseNegatives": 8,
+          "precision": 1.0,
+          "recall": 0.944444,
+          "f1": 0.971429,
+          "medianAbsoluteTimingErrorMs": 0.226757,
+          "p95AbsoluteTimingErrorMs": 0.498866,
+          "falsePositivesPerMinute": 0.0,
+          "falseNegativesPerMinute": 16.0
+        },
+        "30": {
+          "windowMs": 30,
+          "truePositives": 136,
+          "falsePositives": 0,
+          "falseNegatives": 8,
+          "precision": 1.0,
+          "recall": 0.944444,
+          "f1": 0.971429,
+          "medianAbsoluteTimingErrorMs": 0.226757,
+          "p95AbsoluteTimingErrorMs": 0.498866,
+          "falsePositivesPerMinute": 0.0,
+          "falseNegativesPerMinute": 16.0
+        },
+        "50": {
+          "windowMs": 50,
+          "truePositives": 136,
+          "falsePositives": 0,
+          "falseNegatives": 8,
+          "precision": 1.0,
+          "recall": 0.944444,
+          "f1": 0.971429,
+          "medianAbsoluteTimingErrorMs": 0.226757,
+          "p95AbsoluteTimingErrorMs": 0.498866,
+          "falsePositivesPerMinute": 0.0,
+          "falseNegativesPerMinute": 16.0
+        }
+      },
+      "strongEvents": {
+        "10": {
+          "windowMs": 10,
+          "truePositives": 60,
+          "falsePositives": 0,
+          "falseNegatives": 4,
+          "precision": 1.0,
+          "recall": 0.9375,
+          "f1": 0.967742,
+          "medianAbsoluteTimingErrorMs": 0.181406,
+          "p95AbsoluteTimingErrorMs": 0.272109,
+          "falsePositivesPerMinute": 0.0,
+          "falseNegativesPerMinute": 8.0
+        },
+        "20": {
+          "windowMs": 20,
+          "truePositives": 60,
+          "falsePositives": 0,
+          "falseNegatives": 4,
+          "precision": 1.0,
+          "recall": 0.9375,
+          "f1": 0.967742,
+          "medianAbsoluteTimingErrorMs": 0.181406,
+          "p95AbsoluteTimingErrorMs": 0.272109,
+          "falsePositivesPerMinute": 0.0,
+          "falseNegativesPerMinute": 8.0
+        },
+        "30": {
+          "windowMs": 30,
+          "truePositives": 60,
+          "falsePositives": 0,
+          "falseNegatives": 4,
+          "precision": 1.0,
+          "recall": 0.9375,
+          "f1": 0.967742,
+          "medianAbsoluteTimingErrorMs": 0.181406,
+          "p95AbsoluteTimingErrorMs": 0.272109,
+          "falsePositivesPerMinute": 0.0,
+          "falseNegativesPerMinute": 8.0
+        },
+        "50": {
+          "windowMs": 50,
+          "truePositives": 60,
+          "falsePositives": 0,
+          "falseNegatives": 4,
+          "precision": 1.0,
+          "recall": 0.9375,
+          "f1": 0.967742,
+          "medianAbsoluteTimingErrorMs": 0.181406,
+          "p95AbsoluteTimingErrorMs": 0.272109,
+          "falsePositivesPerMinute": 0.0,
+          "falseNegativesPerMinute": 8.0
+        }
+      },
+      "chartEvaluation": {
+        "gridCellAccuracy": {
+          "definition": "Jaccard occupancy accuracy on the expected straight 1/16 grid",
+          "subdivisionsPerBeat": 4,
+          "groundTruthCellCount": 144,
+          "predictedCellCount": 136,
+          "correctCellCount": 136,
+          "extraCellCount": 0,
+          "missingCellCount": 8,
+          "accuracy": 0.944444,
+          "precision": 1.0,
+          "recall": 0.944444,
+          "f1": 0.971429
+        }
+      }
+    }
+  ]
+}

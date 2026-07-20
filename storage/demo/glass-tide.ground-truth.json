@@ -1,0 +1,365 @@
+{
+  "schemaVersion": "1.0",
+  "slug": "glass-tide",
+  "title": "玻璃潮汐",
+  "englishTitle": "Glass Tide",
+  "artist": "Quiet Machines",
+  "genre": "Ambient Percussion",
+  "sampleRate": 44100,
+  "channels": 2,
+  "sampleCount": 1323000,
+  "durationSec": 30.0,
+  "bpm": 96.0,
+  "beatOffsetSample": 0,
+  "timeSignatureNumerator": 4,
+  "timeSignatureDenominator": 4,
+  "seed": 20260721,
+  "audioFile": "storage/demo/glass-tide.wav",
+  "coverFile": "storage/covers/glass-tide.svg",
+  "onsets": [
+    {
+      "sample": 0,
+      "timeSec": 0.0,
+      "band": "low_hit",
+      "strength": 0.3,
+      "layers": [
+        "soft_low"
+      ]
+    },
+    {
+      "sample": 68906,
+      "timeSec": 1.5624943310657597,
+      "band": "high_hit",
+      "strength": 0.28,
+      "layers": [
+        "glass"
+      ]
+    },
+    {
+      "sample": 137812,
+      "timeSec": 3.1249886621315195,
+      "band": "high_hit",
+      "strength": 0.28,
+      "layers": [
+        "glass"
+      ]
+    },
+    {
+      "sample": 199828,
+      "timeSec": 4.531247165532879,
+      "band": "high_hit",
+      "strength": 0.28,
+      "layers": [
+        "glass"
+      ]
+    },
+    {
+      "sample": 220500,
+      "timeSec": 5.0,
+      "band": "high_hit",
+      "strength": 0.88,
+      "layers": [
+        "glass"
+      ]
+    },
+    {
+      "sample": 289406,
+      "timeSec": 6.56249433106576,
+      "band": "high_hit",
+      "strength": 0.48,
+      "layers": [
+        "glass"
+      ]
+    },
+    {
+      "sample": 358312,
+      "timeSec": 8.12498866213152,
+      "band": "low_hit",
+      "strength": 0.48,
+      "layers": [
+        "soft_low"
+      ]
+    },
+    {
+      "sample": 420328,
+      "timeSec": 9.53124716553288,
+      "band": "high_hit",
+      "strength": 0.68,
+      "layers": [
+        "glass"
+      ]
+    },
+    {
+      "sample": 441000,
+      "timeSec": 10.0,
+      "band": "full_band_accent",
+      "strength": 0.91,
+      "layers": [
+        "glass",
+        "glass_accent"
+      ]
+    },
+    {
+      "sample": 509906,
+      "timeSec": 11.562494331065759,
+      "band": "high_hit",
+      "strength": 0.88,
+      "layers": [
+        "glass"
+      ]
+    },
+    {
+      "sample": 578812,
+      "timeSec": 13.12498866213152,
+      "band": "high_hit",
+      "strength": 0.88,
+      "layers": [
+        "glass"
+      ]
+    },
+    {
+      "sample": 640828,
+      "timeSec": 14.53124716553288,
+      "band": "high_hit",
+      "strength": 0.48,
+      "layers": [
+        "glass"
+      ]
+    },
+    {
+      "sample": 661500,
+      "timeSec": 15.0,
+      "band": "low_hit",
+      "strength": 0.48,
+      "layers": [
+        "soft_low"
+      ]
+    },
+    {
+      "sample": 716625,
+      "timeSec": 16.25,
+      "band": "high_hit",
+      "strength": 0.64,
+      "layers": [
+        "triplet_glass"
+      ]
+    },
+    {
+      "sample": 725812,
+      "timeSec": 16.458321995464853,
+      "band": "high_hit",
+      "strength": 0.68,
+      "layers": [
+        "triplet_glass"
+      ]
+    },
+    {
+      "sample": 730406,
+      "timeSec": 16.56249433106576,
+      "band": "high_hit",
+      "strength": 0.68,
+      "layers": [
+        "glass"
+      ]
+    },
+    {
+      "sample": 735000,
+      "timeSec": 16.666666666666668,
+      "band": "high_hit",
+      "strength": 0.72,
+      "layers": [
+        "triplet_glass"
+      ]
+    },
+    {
+      "sample": 744188,
+      "timeSec": 16.875011337868482,
+      "band": "high_hit",
+      "strength": 0.76,
+      "layers": [
+        "triplet_glass"
+      ]
+    },
+    {
+      "sample": 753375,
+      "timeSec": 17.083333333333332,
+      "band": "high_hit",
+      "strength": 0.8,
+      "layers": [
+        "triplet_glass"
+      ]
+    },
+    {
+      "sample": 762562,
+      "timeSec": 17.291655328798186,
+      "band": "high_hit",
+      "strength": 0.84,
+      "layers": [
+        "triplet_glass"
+      ]
+    },
+    {
+      "sample": 771750,
+      "timeSec": 17.5,
+      "band": "full_band_accent",
+      "strength": 0.91,
+      "layers": [
+        "glass_accent"
+      ]
+    },
+    {
+      "sample": 799312,
+      "timeSec": 18.124988662131518,
+      "band": "high_hit",
+      "strength": 0.68,
+      "layers": [
+        "glass"
+      ]
+    },
+    {
+      "sample": 861328,
+      "timeSec": 19.53124716553288,
+      "band": "high_hit",
+      "strength": 0.88,
+      "layers": [
+        "glass"
+      ]
+    },
+    {
+      "sample": 882000,
+      "timeSec": 20.0,
+      "band": "high_hit",
+      "strength": 0.88,
+      "layers": [
+        "glass"
+      ]
+    },
+    {
+      "sample": 950906,
+      "timeSec": 21.56249433106576,
+      "band": "high_hit",
+      "strength": 0.48,
+      "layers": [
+        "glass"
+      ]
+    },
+    {
+      "sample": 1019812,
+      "timeSec": 23.124988662131518,
+      "band": "low_hit",
+      "strength": 0.48,
+      "layers": [
+        "soft_low"
+      ]
+    },
+    {
+      "sample": 1047375,
+      "timeSec": 23.75,
+      "band": "high_hit",
+      "strength": 0.64,
+      "layers": [
+        "triplet_glass"
+      ]
+    },
+    {
+      "sample": 1056562,
+      "timeSec": 23.958321995464853,
+      "band": "high_hit",
+      "strength": 0.68,
+      "layers": [
+        "triplet_glass"
+      ]
+    },
+    {
+      "sample": 1065750,
+      "timeSec": 24.166666666666668,
+      "band": "high_hit",
+      "strength": 0.72,
+      "layers": [
+        "triplet_glass"
+      ]
+    },
+    {
+      "sample": 1074938,
+      "timeSec": 24.375011337868482,
+      "band": "high_hit",
+      "strength": 0.76,
+      "layers": [
+        "triplet_glass"
+      ]
+    },
+    {
+      "sample": 1081828,
+      "timeSec": 24.53124716553288,
+      "band": "high_hit",
+      "strength": 0.68,
+      "layers": [
+        "glass"
+      ]
+    },
+    {
+      "sample": 1084125,
+      "timeSec": 24.583333333333332,
+      "band": "high_hit",
+      "strength": 0.8,
+      "layers": [
+        "triplet_glass"
+      ]
+    },
+    {
+      "sample": 1093312,
+      "timeSec": 24.791655328798186,
+      "band": "high_hit",
+      "strength": 0.84,
+      "layers": [
+        "triplet_glass"
+      ]
+    },
+    {
+      "sample": 1102500,
+      "timeSec": 25.0,
+      "band": "full_band_accent",
+      "strength": 0.91,
+      "layers": [
+        "glass",
+        "glass_accent"
+      ]
+    },
+    {
+      "sample": 1171406,
+      "timeSec": 26.56249433106576,
+      "band": "high_hit",
+      "strength": 0.88,
+      "layers": [
+        "glass"
+      ]
+    },
+    {
+      "sample": 1240312,
+      "timeSec": 28.124988662131518,
+      "band": "high_hit",
+      "strength": 0.88,
+      "layers": [
+        "glass"
+      ]
+    },
+    {
+      "sample": 1295438,
+      "timeSec": 29.375011337868482,
+      "band": "full_band_accent",
+      "strength": 1.0,
+      "layers": [
+        "final_accent"
+      ]
+    },
+    {
+      "sample": 1302328,
+      "timeSec": 29.53124716553288,
+      "band": "high_hit",
+      "strength": 0.48,
+      "layers": [
+        "glass"
+      ]
+    }
+  ]
+}

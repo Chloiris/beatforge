@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.0",
+  "projects": [
+    {
+      "slug": "neon-pulse",
+      "projectId": "4fa2d5b7-304a-5fe9-a835-ed924866e343",
+      "trackId": "4f75bf50-68b0-5e87-95c1-0e94b1e85990",
+      "hitPointCount": 136,
+      "bpm": 128.0
+    },
+    {
+      "slug": "iron-rift",
+      "projectId": "4770c09c-81f6-593a-8657-2d97accde4c0",
+      "trackId": "ef627be8-8a79-579a-8b6b-d76ae73002c6",
+      "hitPointCount": 202,
+      "bpm": 174.0
+    },
+    {
+      "slug": "glass-tide",
+      "projectId": "2d338440-ff1c-563a-b0a0-1f60d897b017",
+      "trackId": "6f8f65f8-4e77-5b87-9546-52fcee489ee7",
+      "hitPointCount": 38,
+      "bpm": 96.0
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+# Optional local Japanese vocal ASR and forced-alignment runtime.
+# qwen-asr pins its supported Transformers, Nagisa and Accelerate versions.
+qwen-asr==0.0.6
+pyopenjtalk==0.4.1

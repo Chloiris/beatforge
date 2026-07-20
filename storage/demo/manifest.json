@@ -1,0 +1,41 @@
+{
+  "schemaVersion": "1.0",
+  "tracks": [
+    {
+      "slug": "neon-pulse",
+      "title": "霓虹脉冲",
+      "englishTitle": "Neon Pulse",
+      "artist": "BeatForge Lab",
+      "genre": "Electronic",
+      "bpm": 128.0,
+      "durationSec": 30.0,
+      "sampleCount": 1323000,
+      "audioFile": "storage/demo/neon-pulse.wav",
+      "coverFile": "storage/covers/neon-pulse.svg"
+    },
+    {
+      "slug": "iron-rift",
+      "title": "钢铁断层",
+      "englishTitle": "Iron Rift",
+      "artist": "Synthetic Foundry",
+      "genre": "Metal / Industrial",
+      "bpm": 174.0,
+      "durationSec": 33.10344671201814,
+      "sampleCount": 1459862,
+      "audioFile": "storage/demo/iron-rift.wav",
+      "coverFile": "storage/covers/iron-rift.svg"
+    },
+    {
+      "slug": "glass-tide",
+      "title": "玻璃潮汐",
+      "englishTitle": "Glass Tide",
+      "artist": "Quiet Machines",
+      "genre": "Ambient Percussion",
+      "bpm": 96.0,
+      "durationSec": 30.0,
+      "sampleCount": 1323000,
+      "audioFile": "storage/demo/glass-tide.wav",
+      "coverFile": "storage/covers/glass-tide.svg"
+    }
+  ]
+}

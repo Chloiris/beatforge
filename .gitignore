@@ -1,0 +1,73 @@
+# Operating systems and editors
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.local
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Python environments, caches and builds
+**/.venv/
+.venv-qwen/
+.venv-vocal/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+dist/
+build/
+
+# JavaScript dependencies, caches and builds
+node_modules/
+.pnpm-store/
+*.tsbuildinfo
+apps/web/dist/
+apps/web/playwright-report/
+apps/web/test-results/
+
+# Local application data. Only deterministic, text-only demo metadata and
+# generated SVG covers are eligible for source control.
+storage/*
+!storage/demo/
+storage/demo/*
+!storage/demo/*.json
+!storage/covers/
+storage/covers/*
+!storage/covers/*.svg
+
+# Never commit user audio, even if it is copied outside storage by mistake.
+*.wav
+*.mp3
+*.flac
+*.m4a
+*.aac
+*.ogg
+
+# Public reports are limited to deterministic synthetic-demo measurements.
+reports/*
+!reports/demo-evaluation.json
+!reports/demo-seed.json
+
+# Local-only acceptance material derived from private projects.
+docs/PROJECT_RESEARCH_BRIEF.md
+apps/api/tests/test_hubert_alignment_real.py
+
+# Runtime files
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.log

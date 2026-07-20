@@ -1,0 +1,13 @@
+{
+  "name": "beatforge-studio",
+  "version": "0.7.1",
+  "private": true,
+  "packageManager": "pnpm@11.9.0",
+  "scripts": {
+    "dev:web": "pnpm --dir apps/web dev",
+    "test:web": "pnpm --dir apps/web test --run",
+    "test:e2e": "pnpm --dir apps/web e2e",
+    "lint:web": "pnpm --dir apps/web lint",
+    "build:web": "pnpm --dir apps/web build"
+  }
+}
