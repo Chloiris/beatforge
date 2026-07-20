@@ -136,7 +136,8 @@ python scripts/beatforge.py clean-generated
 ```
 
 基础门禁包括后端 pytest、Ruff、前端 Vitest、TypeScript、ESLint 和 Vite 生产构建。GitHub
-Actions 在 Ubuntu、macOS 与 Windows 上运行同一套命令，且不会下载模型。
+Actions 在 Ubuntu、macOS 与 Windows 上运行同一套命令，且不会下载模型。`test` 会在缺失时先
+生成不入库的版权安全演示 WAV，因此干净克隆无需手动准备测试音频。
 
 合成演示的确定性评估快照位于
 [`reports/demo-evaluation.json`](reports/demo-evaluation.json)。它只验证仓库生成的合成音频，

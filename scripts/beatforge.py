@@ -221,7 +221,11 @@ def dev() -> None:
 
 
 def test() -> None:
-    _run([_base_python(), "-m", "pytest"])
+    python = _base_python()
+    # The copyright-free WAV fixtures are intentionally kept out of Git. Generate
+    # any missing files so the public test command also works from a clean clone.
+    _run([python, str(PROJECT_ROOT / "scripts" / "generate_demo_audio.py")])
+    _run([python, "-m", "pytest"])
     _run(
         [_pnpm(), "--dir", str(WEB_DIR), "test", "--run"],
         environment=_ci_environment(),

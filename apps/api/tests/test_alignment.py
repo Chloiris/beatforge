@@ -128,14 +128,25 @@ def _wait_terminal(
     runner: AlignmentRunner,
     track_id: str,
     method: str,
+    *,
+    timeout_seconds: float = 10.0,
 ) -> AlignmentResult:
-    deadline = time.monotonic() + 10.0
+    deadline = time.monotonic() + timeout_seconds
+    last_result: AlignmentResult | None = None
     while time.monotonic() < deadline:
-        result = runner.get_result(track_id, method)  # type: ignore[arg-type]
-        if result is not None and result.status in {"completed", "failed", "unavailable"}:
-            return result
+        last_result = runner.get_result(track_id, method)  # type: ignore[arg-type]
+        if last_result is not None and last_result.status in {
+            "completed",
+            "failed",
+            "unavailable",
+        }:
+            return last_result
         time.sleep(0.01)
-    raise AssertionError("alignment runner did not reach a terminal state")
+    last_status = last_result.status if last_result is not None else "missing"
+    raise AssertionError(
+        "alignment runner did not reach a terminal state "
+        f"within {timeout_seconds:g}s (last status: {last_status})"
+    )
 
 
 def test_all_adapters_share_strict_span_schema() -> None:
@@ -179,7 +190,15 @@ def test_hybrid_keeps_successes_when_individual_models_fail(tmp_path: Path) -> N
     try:
         queued = runner.submit(context, "hybrid")
         assert queued.status == "queued"
-        hybrid = _wait_terminal(runner, context.track_id, "hybrid")
+        # The first librosa.yin call may spend tens of seconds compiling Numba
+        # kernels on a clean CI runner. This test exercises the real acoustic
+        # path, so allow that one-time cold start instead of weakening the path.
+        hybrid = _wait_terminal(
+            runner,
+            context.track_id,
+            "hybrid",
+            timeout_seconds=60.0,
+        )
         assert hybrid.status == "completed"
         assert hybrid.tokens
         assert (hybrid.tokens[0].start_sample, hybrid.tokens[0].end_sample) in {
@@ -250,7 +269,12 @@ def test_hybrid_keeps_fused_tokens_when_proxy_reporting_fails(
 
     try:
         runner.submit(context, "hybrid")
-        hybrid = _wait_terminal(runner, context.track_id, "hybrid")
+        hybrid = _wait_terminal(
+            runner,
+            context.track_id,
+            "hybrid",
+            timeout_seconds=60.0,
+        )
         assert hybrid.status == "completed"
         assert hybrid.tokens
         assert hybrid.error is None

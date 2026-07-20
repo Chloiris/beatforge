@@ -58,7 +58,7 @@ jobs:
 
       - name: Install audio runtime (macOS)
         if: runner.os == 'macOS'
-        run: brew list ffmpeg >/dev/null 2>&1 || brew install ffmpeg
+        run: command -v ffmpeg >/dev/null 2>&1 || brew install ffmpeg
 
       - name: Install audio runtime (Windows)
         if: runner.os == 'Windows'
