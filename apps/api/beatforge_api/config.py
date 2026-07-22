@@ -43,6 +43,30 @@ class Settings:
     def alignment_dir(self) -> Path:
         return self.storage_dir / "alignment"
 
+    @property
+    def chart_engine_dir(self) -> Path:
+        return self.storage_dir / "chart-engine"
+
+    @property
+    def generated_charts_dir(self) -> Path:
+        return self.chart_engine_dir / "generated"
+
+    @property
+    def chart_dataset_dir(self) -> Path:
+        return self.chart_engine_dir / "dataset"
+
+    @property
+    def chart_models_dir(self) -> Path:
+        return self.chart_engine_dir / "models"
+
+    @property
+    def speed_charts_dir(self) -> Path:
+        configured = os.environ.get("BEATFORGE_SPEED_CHARTS_DIR", "").strip()
+        if configured:
+            path = Path(configured).expanduser()
+            return path.resolve() if path.is_absolute() else (self.project_root / path).resolve()
+        return (self.project_root / "local-data" / "speed-corpus").resolve()
+
     def ensure_directories(self) -> None:
         for directory in (
             self.storage_dir,
@@ -53,6 +77,10 @@ class Settings:
             self.models_dir,
             self.vocal_alignment_dir,
             self.alignment_dir,
+            self.chart_engine_dir,
+            self.generated_charts_dir,
+            self.chart_dataset_dir,
+            self.chart_models_dir,
         ):
             directory.mkdir(parents=True, exist_ok=True)
 

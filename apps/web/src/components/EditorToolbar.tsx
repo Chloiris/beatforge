@@ -104,6 +104,7 @@ export function EditorToolbar({ project, track, mode, sensitivity, onModeChange,
         </div>
 
         <div className="editor-header-actions" role="group" aria-label="项目操作">
+          <Link className="toolbar-button chart-workspace-button" to={`/projects/${project.id}/chart`}>AI Chart</Link>
           <button
             className={`toolbar-button alignment-lab-button${alignmentLabOpen ? ' active' : ''}`}
             type="button"

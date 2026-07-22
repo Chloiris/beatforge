@@ -37,6 +37,9 @@ accurate = [
   "torch==2.13.0",
   "torchaudio==2.11.0",
 ]
+chart-ml = [
+  "torch==2.13.0",
+]
 
 [tool.hatch.build.targets.wheel]
 packages = ["beatforge_api"]

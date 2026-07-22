@@ -158,7 +158,11 @@ describe('EditorToolbar', () => {
       'href',
       `/api/tracks/${inputTrack.id}/export?format=package&audio=reference`,
     );
-    expect(within(actions).getAllByRole('link')).toHaveLength(1);
+    expect(within(actions).getByRole('link', { name: 'AI Chart' })).toHaveAttribute(
+      'href',
+      `/projects/${project(inputTrack).id}/chart`,
+    );
+    expect(within(actions).getAllByRole('link')).toHaveLength(2);
     expect(within(actions).queryByText('仅数据包')).not.toBeInTheDocument();
     expect(within(actions).queryByText('完整分轨包')).not.toBeInTheDocument();
     expect(within(actions).queryByText('导出 JSON')).not.toBeInTheDocument();

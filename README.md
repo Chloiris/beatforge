@@ -23,6 +23,24 @@ DAW 风格界面中。
 - Canvas 时间轴缩放、定位、拖动、多选、锁定、吸附、Undo/Redo 与自动保存。
 - 区分真实声学位置 `acousticSample` 与音游参考位置 `chartSample`，BPM 不覆盖声学证据。
 - 一键导出含参考音频的 BeatForge 制谱包，兼容 JSON、CSV API。
+- 本地 AI Chart Engine：读取用户提供且有权使用的 SPEED 参考语料，以 1–15 难度生成、优化、验证并导出五轨 SM。
+
+## AI Chart Engine
+
+`/chart-engine` 提供本地五轨参考谱面库和音频同步预览；项目中的“AI 制谱”工作区把当前歌曲的
+BeatForge 声学候选转换为五轨谱面，支持独立转圈开关、可玩性报告和 SM 导出。生成逻辑与
+可选 Transformer 均完全本地运行，checkpoint 不存在时使用从本地授权语料统计得到的确定性规则。
+
+```bash
+.venv/bin/python scripts/chart_engine.py inventory
+.venv/bin/python scripts/chart_engine.py build-dataset \
+  --mode pump-single --analysis-mode balanced --analyze-missing
+.venv/bin/python scripts/train_chart_model.py \
+  --epochs 12 --batch-size 8 --sequence-length 512 --device auto
+```
+
+本地语料约定、数据集契约、训练参数、接口和存储结构见
+[AI Chart Engine 文档](docs/AI_CHART_ENGINE.md)。
 
 ## 导出数据包
 
@@ -164,6 +182,7 @@ storage/
 ├── vocal-alignment/  模型子进程临时目录
 ├── waveform/         多级波形缓存
 ├── analyses/         分析快照
+├── chart-engine/     真实训练数据、模型 checkpoint 与生成谱面
 └── beatforge.db      SQLite 项目与编辑数据
 ```
 

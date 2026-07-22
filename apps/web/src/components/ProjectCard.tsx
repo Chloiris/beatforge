@@ -52,7 +52,10 @@ export function ProjectCard({ project, featured = false }: { project: ProjectSum
         </dl>
         <div className="project-footer">
           <small>更新于 {new Date(project.updatedAt).toLocaleString('zh-CN', { month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit' })}</small>
-          <Link className="text-button" to={`/projects/${project.id}`}>打开编辑器 <span>→</span></Link>
+          <div className="project-card-actions">
+            <Link className="text-button" to={`/projects/${project.id}`}>声学编辑 <span>→</span></Link>
+            <Link className="text-button chart-card-link" to={`/projects/${project.id}/chart`}>AI 制谱 <span>→</span></Link>
+          </div>
         </div>
       </div>
     </article>

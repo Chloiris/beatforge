@@ -10,6 +10,7 @@ from fastapi.responses import JSONResponse
 from sqlalchemy import select
 from starlette.exceptions import HTTPException
 
+from .chart_routes import chart_router
 from .config import get_settings
 from .database import SessionLocal, init_db
 from .errors import BeatForgeError
@@ -80,6 +81,7 @@ app.add_middleware(
     expose_headers=["Content-Range", "Accept-Ranges", "Content-Disposition"],
 )
 app.include_router(router)
+app.include_router(chart_router)
 
 
 @app.exception_handler(BeatForgeError)

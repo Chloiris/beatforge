@@ -8,10 +8,17 @@ import type {
   AnalyzeResponse,
   ApiErrorBody,
   CandidateEvent,
+  ChartCorpusStatistics,
+  ChartDocument,
+  ChartGenerationResponse,
+  ChartMode,
+  GenerateChartRequest,
   HitPoint,
   Project,
   ProjectDetail,
   ProjectListResponse,
+  ReferenceChartGroup,
+  ReferenceChartListResponse,
   LyricsInputFormat,
   StemKind,
   TempoSegment,
@@ -68,6 +75,34 @@ async function request<T>(path: string, init: RequestInit = {}): Promise<T> {
 }
 
 export const api = {
+  getReferenceCharts: (filters: {
+    mode?: ChartMode;
+    group?: ReferenceChartGroup | '';
+    search?: string;
+  } = {}) => {
+    const params = new URLSearchParams();
+    if (filters.mode) params.set('mode', filters.mode);
+    if (filters.group) params.set('group', filters.group);
+    if (filters.search) params.set('search', filters.search);
+    const query = params.size ? `?${params}` : '';
+    return request<ReferenceChartListResponse>(`/chart-engine/reference-charts${query}`);
+  },
+
+  getReferenceChart: (chartId: string) =>
+    request<ChartDocument>(`/chart-engine/reference-charts/${encodeURIComponent(chartId)}`),
+
+  getChartCorpusStatistics: () =>
+    request<ChartCorpusStatistics>('/chart-engine/statistics'),
+
+  generateChart: (trackId: string, input: GenerateChartRequest) =>
+    request<ChartGenerationResponse>(`/tracks/${encodeURIComponent(trackId)}/chart/generate`, {
+      method: 'POST',
+      body: JSON.stringify(input),
+    }),
+
+  getLatestChart: (trackId: string) =>
+    request<ChartDocument>(`/tracks/${encodeURIComponent(trackId)}/chart/latest`),
+
   getAlignmentMethods: () => request<AlignmentMethod[]>('/alignment/methods'),
 
   runAlignment: (trackId: string, method: AlignmentMethodId) =>
@@ -190,6 +225,14 @@ export const api = {
     }),
 
   audioUrl: (trackId: string) => apiUrl(`/tracks/${encodeURIComponent(trackId)}/audio`),
+  referenceChartAudioUrl: (chartId: string) =>
+    apiUrl(`/chart-engine/reference-charts/${encodeURIComponent(chartId)}/audio`),
+  chartExportUrl: (trackId: string, generationId?: string) => {
+    const params = new URLSearchParams();
+    if (generationId) params.set('generationId', generationId);
+    const query = params.size ? `?${params}` : '';
+    return apiUrl(`/tracks/${encodeURIComponent(trackId)}/chart/export${query}`);
+  },
   exportUrl: (
     trackId: string,
     format: 'json' | 'csv' | 'package',
