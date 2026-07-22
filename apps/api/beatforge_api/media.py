@@ -162,13 +162,21 @@ def probe_audio(path: Path) -> AudioProbe:
     )
 
 
-def prepare_analysis_source(path: Path, output_dir: Path) -> tuple[Path, bool]:
-    """Return a libsndfile-readable source, decoding through ffmpeg when necessary."""
-    try:
-        sf.info(str(path))
-        return path, False
-    except RuntimeError:
-        pass
+def prepare_analysis_source(
+    path: Path, output_dir: Path, *, force_ffmpeg: bool = False
+) -> tuple[Path, bool]:
+    """Return a libsndfile-readable source, decoding through ffmpeg when necessary.
+
+    ``sf.info`` can succeed for a damaged or unusual MP3 even when decoding the
+    complete stream later fails. Callers that already observed a libsndfile
+    decode error can therefore force the existing ffmpeg recovery path.
+    """
+    if not force_ffmpeg:
+        try:
+            sf.info(str(path))
+            return path, False
+        except RuntimeError:
+            pass
     ffmpeg = shutil.which("ffmpeg")
     if not ffmpeg:
         raise BeatForgeError(

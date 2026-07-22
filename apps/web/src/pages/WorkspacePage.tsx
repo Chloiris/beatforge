@@ -1,5 +1,6 @@
 import { useMemo, useState } from 'react';
 import { useQuery } from '@tanstack/react-query';
+import { Link } from 'react-router-dom';
 import { api } from '../api/client';
 import { Brand } from '../components/Brand';
 import { ProjectCard } from '../components/ProjectCard';
@@ -37,7 +38,10 @@ export function WorkspacePage() {
         <Brand />
         <div className="header-divider" />
         <div className="workspace-title"><span>LIBRARY / 本地工作区</span><h1>歌曲工作区</h1></div>
-        <button className="primary-button import-button" onClick={() => setUploadOpen(true)}><span>＋</span> 导入音频</button>
+        <div className="workspace-header-actions">
+          <Link className="toolbar-button chart-engine-link" to="/chart-engine">真实谱面库</Link>
+          <button className="primary-button import-button" onClick={() => setUploadOpen(true)}><span>＋</span> 导入音频</button>
+        </div>
       </header>
       <section className="workspace-hero">
         <div>

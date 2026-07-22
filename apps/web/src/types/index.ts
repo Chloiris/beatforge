@@ -405,3 +405,179 @@ export interface HitDisplayFilters {
 }
 
 export type GridSubdivision = '1/4' | '1/8' | '1/12' | '1/16' | '1/24' | '1/32';
+
+export type ChartMode = 'pump-single' | 'pump-double';
+export type ChartNoteType = 'tap' | 'hold' | 'mine';
+export type ChartIssueSeverity = 'info' | 'warning' | 'error';
+export type ReferenceChartGroup = 'SPEED_CLUB' | 'SPEED_DEVIL' | 'SPEED_REMIX';
+
+export interface ChartTempoPoint {
+  beat: number;
+  bpm: number;
+  timeSec: number;
+}
+
+export interface ChartNote {
+  lane: number;
+  type: ChartNoteType;
+  endTimeSec: number | null;
+  endBeat: number | null;
+  source: string;
+  confidence: number;
+  foot: 'left' | 'right' | null;
+}
+
+export interface ChartEvent {
+  timeSec: number;
+  beat: number;
+  measure: number;
+  subdivision: number;
+  rowIndex: number | null;
+  notes: ChartNote[];
+  sourceEventId: string | null;
+  sourceEventIds?: string[];
+  sourceHitPointIds?: string[];
+  anchorPriority?: 0 | 1 | 2;
+  pattern: string | null;
+}
+
+export interface ChartStatistics {
+  noteCount: number;
+  eventCount: number;
+  holdCount: number;
+  jumpCount: number;
+  mineCount: number;
+  durationSec: number;
+  npsAverage: number;
+  npsPeak: number;
+  singleRatio: number;
+  jumpRatio: number;
+  holdRatio: number;
+  laneCounts: number[];
+  measureDensities: number[];
+  sameFootRuns: number[];
+  footSwitchRatio: number;
+  smallSpinCount: number;
+  bigSpinCount: number;
+}
+
+export interface ChartValidationIssue {
+  code: string;
+  severity: ChartIssueSeverity;
+  message: string;
+  timeSec: number | null;
+  beat: number | null;
+  penalty: number;
+}
+
+export interface ChartValidationResult {
+  valid: boolean;
+  score: number;
+  issues: ChartValidationIssue[];
+  metrics: Record<string, unknown>;
+}
+
+export interface ChartModelProvenance {
+  schemaVersion: string | number | null;
+  architecture: string | null;
+  createdAt: string | null;
+  datasetFingerprint: string | null;
+  sampleCount: number | null;
+  bestLoss: number | null;
+  realDataOnly: boolean;
+  checkpointSha256: string | null;
+}
+
+export interface ChartDocument {
+  id: string;
+  title: string;
+  artist: string;
+  music: string;
+  sourceGroup: string | null;
+  sourcePath: string | null;
+  mode: ChartMode;
+  laneCount: number;
+  difficulty: string;
+  meter: number;
+  bpm: number;
+  offsetSec: number;
+  durationSec: number;
+  measureCount: number;
+  tempoMap: ChartTempoPoint[];
+  events: ChartEvent[];
+  statistics: ChartStatistics | null;
+  validation: ChartValidationResult | null;
+  optimization: Record<string, number> | null;
+  modelProvenance: ChartModelProvenance | null;
+  generator: string;
+  generatorVersion: string;
+  seed: number | null;
+  spinEnabled?: boolean;
+}
+
+export interface ReferenceChartSummary {
+  id: string;
+  title: string;
+  group: ReferenceChartGroup;
+  mode: ChartMode;
+  laneCount: number;
+  difficulty: string;
+  meter: number;
+  bpm: number;
+  bpmMax: number;
+  offsetSec: number;
+  durationSec: number;
+  noteCount: number;
+  eventCount: number;
+  npsAverage: number;
+  npsPeak: number;
+  audioUrl: string;
+  chartUrl: string;
+}
+
+export interface ReferenceChartListResponse {
+  items: ReferenceChartSummary[];
+  total: number;
+  corpusTotal: number;
+  source: 'local_reference_corpus' | string;
+}
+
+export interface ChartCorpusStatistics {
+  chartCount: number;
+  songCount: number;
+  singleChartCount: number;
+  singleSongCount: number;
+  doubleChartCount: number;
+  doubleSongCount: number;
+  difficultyMin: number;
+  difficultyMax: number;
+  totalNotes: number;
+  totalDurationSec: number;
+  averageNps: number;
+  groups: Record<string, number>;
+  laneTransitionProbabilities: number[][];
+  meterProfiles: Record<string, Record<string, number>>;
+}
+
+export interface GenerateChartRequest {
+  difficulty: number;
+  enableSpin: boolean;
+  useLocalModel?: boolean;
+  seed?: number;
+}
+
+export interface ChartGenerationResponse {
+  generationId: string;
+  chart: ChartDocument;
+  referenceCorpus: {
+    source: string;
+    chartCount: number;
+    songCount: number;
+    difficultyRange: number[];
+    model: {
+      requested: boolean;
+      available: boolean;
+      used: boolean;
+    };
+  };
+}

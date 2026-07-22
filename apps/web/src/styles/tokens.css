@@ -72,4 +72,17 @@
   --canvas-minimap-waveform: #4FA89A73;
   --canvas-minimap-viewport: #A3ADAE14;
   --canvas-minimap-viewport-border: #A3ADAE52;
+
+  --chart-canvas-bg: #070C0E;
+  --chart-lane: #0A1114;
+  --chart-lane-alternate: #0D1518;
+  --chart-lane-divider: #253138;
+  --chart-receptor: #A7C8C1;
+  --chart-judgment: #D26B76;
+  --chart-hold: #4FA89A99;
+  --chart-note-left-down: #628FBA;
+  --chart-note-left-up: #9180A9;
+  --chart-note-center: #D1B75F;
+  --chart-note-right-up: #BF7188;
+  --chart-note-right-down: #C18753;
 }

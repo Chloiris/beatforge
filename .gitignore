@@ -25,10 +25,32 @@ __pycache__/
 .pytest_cache/
 .ruff_cache/
 .mypy_cache/
+**/.cache/
+**/.feature-cache/
 .coverage
 htmlcov/
 dist/
 build/
+wandb/
+runs/
+checkpoints/
+
+# Local model, dataset and export artifacts.
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.gguf
+*.npy
+*.npz
+*.pkl
+*.joblib
+*.sm
+*.ssc
+*.beatforge.zip
+*.rar
+*.7z
 
 # JavaScript dependencies, caches and builds
 node_modules/
@@ -56,6 +78,10 @@ storage/covers/*
 *.aac
 *.ogg
 
+# Local copyrighted reference corpora used by AI Chart Engine training/tests.
+local-data/
+材料/
+
 # Public reports are limited to deterministic synthetic-demo measurements.
 reports/*
 !reports/demo-evaluation.json
@@ -64,6 +90,8 @@ reports/*
 # Local-only acceptance material derived from private projects.
 docs/PROJECT_RESEARCH_BRIEF.md
 apps/api/tests/test_hubert_alignment_real.py
+apps/api/tests/test_chart_engine_real_data.py
+apps/api/tests/test_chart_rhythm_policy.py
 
 # Runtime files
 *.db
